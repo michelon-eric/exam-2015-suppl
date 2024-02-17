@@ -7,10 +7,10 @@ if (!function_exists('view')) {
         // extract($data);
         // include app_views_directory . "$name.php";
 
-        // return (new \Lib\Systems\Views\View($name, $data))->render();
+        return (new \Lib\Systems\Views\View($name, $data))->render();
 
-        $data['view'] = $name;
-        return (new \Lib\Systems\Views\View('layout/page', $data))->render();
+        // $data['view'] = $name;
+        // return (new \Lib\Systems\Views\View('layout/page', $data))->render();
     }
 }
 

@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <?php include app_views_directory . "$view.php"; ?>
+    <?= $this->render_section('content') ?>
 </body>
 
 </html>
