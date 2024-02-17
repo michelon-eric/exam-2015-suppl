@@ -1,20 +1,16 @@
 <?php
 
-use Lib\Systems\Views\View;
-
 if (!function_exists('view')) {
     include lib_views_directory . 'View.php';
     function view(string $name, array $data = [])
     {
-        $view = new View($name);
-
-        foreach ($data as $key => $value) {
-            $view->with($key, $value);
-        }
-
-        $view->render();
-
+        // extract($data);
         // include app_views_directory . "$name.php";
+
+        // return (new \Lib\Systems\Views\View($name, $data))->render();
+
+        $data['view'] = $name;
+        return (new \Lib\Systems\Views\View('layout/page', $data))->render();
     }
 }
 
