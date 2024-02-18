@@ -10,8 +10,4 @@ Dashboard
 
 <?= $this->section('content') ?>
 
-<div class="p-2">
-    <button class="btn btn-dark">meow</button>
-</div>
-
 <?= $this->end_section() ?>

@@ -57,3 +57,11 @@ if (!function_exists('assets_path')) {
         return str_replace(base_url, '', $path);
     }
 }
+
+if (!function_exists('base_url')) {
+    function base_url($url = '')
+    {
+        $base_url = "http" . (($_SERVER['SERVER_PORT'] == 443) ? "s" : "") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+        return $base_url . $url;
+    }
+}
