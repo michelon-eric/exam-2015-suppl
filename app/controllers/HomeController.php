@@ -12,7 +12,7 @@ class HomeController extends Controller
     public function index()
     {
         // session()->set('test', 'meow');
-        view('home', ['title' => 'fucking title']);
+        view('home');
     }
 
     public function test()

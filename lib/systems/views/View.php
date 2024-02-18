@@ -2,6 +2,8 @@
 
 namespace Lib\Systems\Views;
 
+// probs the most inspired thing in this project
+
 class View
 {
     protected $data;
@@ -55,7 +57,6 @@ class View
     {
         if (!isset($this->sections[$name])) {
             echo '';
-
             return;
         }
 
@@ -67,14 +68,21 @@ class View
 
     public function extend($layout)
     {
-        $view = new View($layout, $this->data);
-        $view->sections = $this->sections;
-        $view->render();
+        // $view = new View($layout, $this->data);
+        // $view->sections = $this->sections;
+        // $view->render();
+
+        $this->name = $layout;
     }
 
     public function include($layout)
     {
         $view = new View($layout, $this->data);
         $view->render();
+    }
+
+    public function get_name()
+    {
+        return $this->name;
     }
 }
