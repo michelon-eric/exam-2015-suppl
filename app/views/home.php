@@ -1,12 +1,17 @@
 <?= $this->extend('layout/page') ?>
 
 <?= $this->section('title') ?>
-impressigve title
+Dashboard
 <?= $this->end_section() ?>
 
-<?= $this->section('script') ?>
+<?= $this->section('include') ?>
+<script type="module" src="<?= assets_path('js/home.js') ?>" defer></script>
 <?= $this->end_section() ?>
 
 <?= $this->section('content') ?>
-<h1>meow</h1>
+
+<div class="p-2">
+    <button class="btn btn-dark">meow</button>
+</div>
+
 <?= $this->end_section() ?>

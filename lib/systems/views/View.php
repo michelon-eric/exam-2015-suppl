@@ -21,13 +21,13 @@ class View
     {
         if ($this->data !== null) extract($this->data);
 
-        $file_path = app_views_directory . "{$this->name}.php";
+        $file_path = app_views_url . "{$this->name}.php";
 
         if (!file_exists($file_path)) {
             redirect('404');
         }
 
-        include app_views_directory . "{$this->name}.php";
+        include app_views_url . "{$this->name}.php";
     }
 
     public function section($name)

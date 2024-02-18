@@ -3,17 +3,19 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-define('main_directory', __DIR__ . DIRECTORY_SEPARATOR);
-include main_directory . 'lib/config/Paths.php';
-include main_directory . 'app/config/Paths.php';
+define('base_url', __DIR__ . DIRECTORY_SEPARATOR);
+include base_url . 'lib/config/Paths.php';
+include base_url . 'app/config/Paths.php';
+define('assets_url', app_url . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR);
 
-include app_config_directory . 'Database.php';
+include app_cfg_url . 'Database.php';
 
-include lib_systems_directory . 'router/Routes.php';
+include lib_sys_url . 'router/Routes.php';
 $routes = new Lib\Systems\Router\Routes();
-include app_config_directory . 'Routes.php';
+include app_cfg_url . 'Routes.php';
 
-include lib_directory . 'common.php';
+include lib_url . 'common.php';
+
 
 $request_method = $_SERVER['REQUEST_METHOD'];
 $request_uri = $_SERVER['REQUEST_URI'];
@@ -27,5 +29,5 @@ if ($callback === null) {
     include 'app/controllers/' . $controller . '.php';
     $controller = "App\\Controllers\\$controller";
     $controller_instance = new $controller($_GET, $_POST);
-    $controller_instance->$method();
+    echo $controller_instance->$method();
 }

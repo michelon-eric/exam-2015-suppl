@@ -2,7 +2,7 @@
 
 namespace Lib\Systems\Models;
 
-include  lib_directory . 'Database/Database.php';
+include  lib_url . 'Database/Database.php';
 
 use \Lib\Database\Database as Database;
 

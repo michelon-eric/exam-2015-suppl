@@ -2,8 +2,8 @@
 
 namespace Lib\Systems\Controllers;
 
-include lib_directory . 'common.php';
-include lib_directory . 'Request.php';
+include lib_url . 'common.php';
+include lib_url . 'Request.php';
 
 class Controller
 {
