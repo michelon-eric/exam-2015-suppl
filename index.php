@@ -20,14 +20,24 @@ include lib_url . 'common.php';
 $request_method = $_SERVER['REQUEST_METHOD'];
 $request_uri = $_SERVER['REQUEST_URI'];
 
-$callback = $routes->match($request_method, $request_uri);
-
-if ($callback === null) {
-    view('errors/404');
-} else {
-    list($controller, $method) = explode('::', $callback);
-    include 'app/controllers/' . $controller . '.php';
-    $controller = "App\\Controllers\\$controller";
-    $controller_instance = new $controller($_GET, $_POST);
-    echo $controller_instance->$method();
+$match = $routes->match($request_method, $request_uri);
+if ($match === null) {
+    goto error;
 }
+
+$callback = $match['match'];
+$params = $match['params'];
+if ($callback === null) {
+    goto error;
+}
+
+list($controller, $method) = explode('::', $callback);
+include 'app/controllers/' . $controller . '.php';
+$controller = "App\\Controllers\\$controller";
+$controller_instance = new $controller($_GET, $_POST);
+echo $controller_instance->$method($params);
+goto success;
+
+error:
+view('errors/404');
+success:

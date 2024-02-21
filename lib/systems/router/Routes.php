@@ -27,12 +27,30 @@ class Routes
 
     public function match($method, $url)
     {
+        $urlParts = parse_url($url);
+        $path = $urlParts['path'] ?? '';
+
         foreach ($this->routes as $route) {
-            if ($route['method'] === $method && $route['url'] === $url) {
-                return $route['callback'];
+            if ($route['method'] === $method) {
+                $pattern = $this->build_pattern($route['url']);
+
+                // Ignore everything after '?'
+                $pathWithoutQuery = strtok($path, '?');
+
+                if (preg_match($pattern, $pathWithoutQuery, $matches)) {
+                    $params = array_slice($matches, 1);
+                    return ['match' => $route['callback'], 'params' => $params];
+                }
             }
         }
 
         return null;
+    }
+
+    private function build_pattern($url)
+    {
+        $pattern = preg_replace('/\//', '\/', $url);
+        $pattern = preg_replace('/\{[^\}]+\}/', '([^\/]+)', $pattern);
+        return '/^' . $pattern . '$/';
     }
 }

@@ -22,4 +22,14 @@ class Request
     {
         return $this->post_params[$key] ?? $default;
     }
+
+    public function get_params()
+    {
+        return $this->get_params;
+    }
+
+    public function post_params()
+    {
+        return $this->post_params;
+    }
 }
