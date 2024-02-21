@@ -37,7 +37,9 @@
 
         <?= $this->include('layout/sidebar') ?>
 
-        <?= $this->render_section('content') ?>
+        <div class="content">
+            <?= $this->render_section('content') ?>
+        </div>
 
     </div>
 </body>

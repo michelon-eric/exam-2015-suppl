@@ -16,8 +16,7 @@ body {
 	line-height: 1.5;
 	color: #adb5bd;
 	background-color: #282e38;
-	-webkit-text-size-adjust: 100%;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	overflow: hidden;
 }
 
 hr {
@@ -51,6 +50,14 @@ a:not([href]):not([class]):hover {
 	height: 100%;
 	overflow: hidden;
 	width: 100%;
+}
+
+.content {
+	margin-left: 240px;
+	overflow: hidden;
+	padding: 0 12px 65px 12px;
+	min-height: 80vh;
+	margin-top: 70px;
 }
 
 h6,
