@@ -29,7 +29,7 @@
 	position: relative;
 	transition: all 0.4s;
 	font-family: 'Karla', sans-serif;
-	font-size: 1.7rem;
+	font-size: 1.1rem;
 }
 #sidebar-menu > ul > li > a:hover,
 #sidebar-menu > ul > li > a:focus,
@@ -47,7 +47,7 @@
 	text-align: center;
 	vertical-align: middle;
 	width: 16px;
-	font-size: 2rem;
+	font-size: 1.1rem;
 }
 #sidebar-menu > ul > li > a svg {
 	width: 16px;
@@ -79,7 +79,7 @@
 	letter-spacing: 0.05em;
 	pointer-events: none;
 	cursor: default;
-	font-size: 1rem;
+	font-size: 0.625rem;
 	text-transform: uppercase;
 	color: #6e768e;
 	font-weight: 500;
@@ -93,14 +93,14 @@
 
 .menu-arrow {
 	transition: transform 0.15s;
-	transform: translateY(85%) rotateZ(0deg);
+	transform: translateY(50%) rotateZ(0deg);
 	position: absolute;
 	right: 20px;
 	display: inline-block;
 	font-family: 'Material Design Icons';
 	text-rendering: auto;
 	line-height: 1.5rem;
-	font-size: 1.1rem;
+	font-size: 5rem;
 }
 
 .menu-arrow.rotate {
@@ -113,7 +113,7 @@
 	display: block;
 	position: relative;
 	transition: all 0.4s;
-	font-size: 1.7em;
+	font-size: 0.9em;
 	text-decoration: none;
 }
 .nav-second-level li a:focus,

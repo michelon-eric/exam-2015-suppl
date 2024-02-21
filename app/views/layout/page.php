@@ -10,7 +10,6 @@
     <script src="<?= assets_path('js\bootstrap\bootstrap.bundle.min.js') ?>" defer></script>
 
     <link rel="stylesheet" type="text/css" href="<?= assets_path('css\bootstrap\bootstrap.min.css') ?>">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <script src="<?= assets_path('js\waves\waves.min.js') ?>" defer></script>
     <link rel="stylesheet" type="text/css" href="<?= assets_path('css\waves\waves.min.css') ?>">
