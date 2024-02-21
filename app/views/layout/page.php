@@ -19,7 +19,13 @@
 
     <link rel="stylesheet" type="text/css" href="<?= assets_path('css\app.css') ?>">
 
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
     <script src="<?= assets_path('js\navbar.js') ?>" defer></script>
+    <script src="<?= assets_path('js\sidebar.js') ?>" defer></script>
 
     <?= $this->render_section('include') ?>
 </head>
@@ -28,6 +34,8 @@
     <div id="wrapper">
 
         <?= $this->include('layout/navbar') ?>
+
+        <?= $this->include('layout/sidebar') ?>
 
         <?= $this->render_section('content') ?>
 

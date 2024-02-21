@@ -37,11 +37,9 @@
     </ul>
 
     <ul class="list-unstyled topnav-menu topnav-menu-left mb-0">
-        <li>
-            <button class="button-menu-mobile disable-btn waves-effect">
-                <i class="fe-menu"></i>
-            </button>
-        </li>
+        <div class="box d-flex align-items-center justify-content-center">
+            <span style="font-size: 2.3rem; color: #6e768e;">meow</span>
+        </div>
 
         <li>
             <h4 class="page-title-main">Dashboard</h4>
