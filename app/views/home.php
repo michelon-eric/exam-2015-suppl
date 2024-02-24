@@ -1,3 +1,7 @@
+<?php
+
+/** @var \Lib\Systems\Views\View $this */ ?>
+
 <?= $this->extend('layout/page') ?>
 
 <?= $this->section('title') ?>
@@ -9,5 +13,5 @@ Dashboard
 <?= $this->end_section() ?>
 
 <?= $this->section('content') ?>
-
+<button class="btn">fuckme</button>
 <?= $this->end_section() ?>

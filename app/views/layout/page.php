@@ -1,3 +1,7 @@
+<?php
+
+/** @var \Lib\Systems\Views\View $this */ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,6 +40,7 @@
 
         <?= $this->include('layout/sidebar') ?>
 
+        <p>fuck you</p>
         <div class="content">
             <?= $this->render_section('content') ?>
         </div>

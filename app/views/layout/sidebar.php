@@ -1,3 +1,7 @@
+<?php
+
+/** @var \Lib\Systems\Views\View $this */ ?>
+
 <div class="left-side-menu">
 
     <div class="h-100" data-simplebar>
@@ -5,23 +9,24 @@
         <div class="user-box text-center">
 
             <div class="dropdown">
-                <a href="#" class="user-name dropdown-toggle h5 mt-2 mb-1 d-block" data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="#" class="user-name dropdown-toggle h5 mt-2 mb-1 d-block" data-bs-toggle="dropdown"
+                    aria-expanded="false">
                     <?php
 
-                    use App\Models\UserModel;
+                    // use App\Models\UserModel;
 
-                    $model = new UserModel();
-                    $user = $model->find(session()->get('user-id'));
-                    if ($user == false) :
-                    // redirect('404');
-                    endif;
+                    // $model = new UserModel();
+                    // $user = $model->find(session()->get('user-id'));
+                    // if ($user == false) :
+                    // // redirect('404');
+                    // endif;
 
-                    $user = [
-                        'USR_LAST_NAME' => 'Kaname',
-                        'USR_FIRST_NAME' => 'Madoka',
-                    ];
+                    // $user = [
+                    //     'USR_LAST_NAME' => 'Kaname',
+                    //     'USR_FIRST_NAME' => 'Madoka',
+                    // ];
 
-                    echo $user['USR_LAST_NAME'] . ' ' . $user['USR_FIRST_NAME'];
+                    // echo $user['USR_LAST_NAME'] . ' ' . $user['USR_FIRST_NAME'];
                     ?></a>
                 <div class="dropdown-menu user-pro-dropdown">
 
@@ -70,7 +75,10 @@
                     $company_id = 0;
                     $company_data = ['CMP_COMPANY_NAME' => 'meow'];
                     ?>
-                    <a class="uncollapse" id="a-<?= $company_data['CMP_COMPANY_NAME'] ?>" data-toggle="collapse" data-target="#d-<?= $company_data['CMP_COMPANY_NAME'] ?>" aria-controls="<?= $company_data['CMP_COMPANY_NAME'] ?>" href="#d-<?= $company_data['CMP_COMPANY_NAME'] ?>">
+                    <a class="uncollapse" id="a-<?= $company_data['CMP_COMPANY_NAME'] ?>" data-toggle="collapse"
+                        data-target="#d-<?= $company_data['CMP_COMPANY_NAME'] ?>"
+                        aria-controls="<?= $company_data['CMP_COMPANY_NAME'] ?>"
+                        href="#d-<?= $company_data['CMP_COMPANY_NAME'] ?>">
                         <i class="material-icons">dashboard_outlined</i>
                         <span> <?= $company_data['CMP_COMPANY_NAME'] ?> </span>
                         <i id="collapse-icon" class="material-icons menu-arrow float-right">keyboard_arrow_right</i>
