@@ -3,7 +3,7 @@
 /** @var \Lib\Systems\Views\View $this */ ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -13,19 +13,22 @@
     <script src="<?= assets_path('js\jquery\jquery.min.js') ?>" defer></script>
     <script src="<?= assets_path('js\bootstrap\bootstrap.bundle.min.js') ?>" defer></script>
 
-    <link rel="stylesheet" type="text/css" href="<?= assets_path('css\bootstrap\bootstrap.min.css') ?>">
+    <!-- <link rel="stylesheet" type="text/css" href="<?= assets_path('css\bootstrap\bootstrap.min.css') ?>"> -->
 
     <script src="<?= assets_path('js\waves\waves.min.js') ?>" defer></script>
     <link rel="stylesheet" type="text/css" href="<?= assets_path('css\waves\waves.min.css') ?>">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 
-    <link rel="stylesheet" type="text/css" href="<?= assets_path('css\app.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= assets_path('dist\css\app.css') ?>">
 
-    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 
+
+    <!-- preline -->
+    <script src="<?= base_url() ?>node_modules/preline/dist/preline.js" defer></script>
 
     <script src="<?= assets_path('js\navbar.js') ?>" defer></script>
     <script src="<?= assets_path('js\sidebar.js') ?>" defer></script>
@@ -33,18 +36,13 @@
     <?= $this->render_section('include') ?>
 </head>
 
-<body>
-    <div id="wrapper">
+<body class="transition-colors duration-200 dark:bg-gray-950">
+    <?= $this->include('layout/navbar') ?>
 
-        <?= $this->include('layout/navbar') ?>
+    <?= $this->include('layout/sidebar') ?>
 
-        <?= $this->include('layout/sidebar') ?>
-
-        <p>fuck you</p>
-        <div class="content">
-            <?= $this->render_section('content') ?>
-        </div>
-
+    <div class="content">
+        <?= $this->render_section('content') ?>
     </div>
 </body>
 

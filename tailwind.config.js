@@ -1,4 +1,6 @@
 module.exports = {
-	content: ['./app/views/**/*.php'],
-	plugins: [require('daisyui')],
+	mode: 'jit',
+	darkMode: 'class',
+	content: ['./app/views/**/*.php', './node_modules/preline/dist/*.js'],
+	plugins: [require('preline/plugin')],
 }

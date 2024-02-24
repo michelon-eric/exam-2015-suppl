@@ -13,5 +13,4 @@ Dashboard
 <?= $this->end_section() ?>
 
 <?= $this->section('content') ?>
-<button class="btn">fuckme</button>
 <?= $this->end_section() ?>

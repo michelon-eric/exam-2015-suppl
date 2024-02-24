@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "build:css": "npx postcss app/assets/css/**/*.css -d app/assets/dist/css"
+    "build:css": "npx postcss app/assets/css/**/*.css -d app/assets/dist/css",
+    "watch": "npx onchange './app/assets/css/**/*.css' './app/views/**/*.php' -- npm run build:css"
   },
   "repository": {
     "type": "git",
@@ -24,9 +25,12 @@
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.35",
     "postcss-cli": "^11.0.0",
+    "preline": "^2.0.3",
     "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
-    "daisyui": "^4.7.2"
+    "@tailwindcss/forms": "^0.5.7",
+    "daisyui": "^4.7.2",
+    "onchange": "^7.1.0"
   }
 }
