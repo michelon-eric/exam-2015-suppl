@@ -3,7 +3,7 @@
 /** @var \Lib\Systems\Views\View $this */ ?>
 
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="dark h-full">
 
 <head>
     <meta charset="UTF-8">
@@ -11,9 +11,11 @@
     <title><?= $this->render_section('title') ?></title>
 
     <script src="<?= assets_path('js\jquery\jquery.min.js') ?>" defer></script>
-    <script src="<?= assets_path('js\bootstrap\bootstrap.bundle.min.js') ?>" defer></script>
+    <!-- <script src="<?= '' // assets_path('js\bootstrap\bootstrap.bundle.min.js') 
+                        ?>" defer></script> -->
 
-    <!-- <link rel="stylesheet" type="text/css" href="<?= assets_path('css\bootstrap\bootstrap.min.css') ?>"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?= '' // assets_path('css\bootstrap\bootstrap.min.css') 
+                                                        ?>"> -->
 
     <script src="<?= assets_path('js\waves\waves.min.js') ?>" defer></script>
     <link rel="stylesheet" type="text/css" href="<?= assets_path('css\waves\waves.min.css') ?>">
@@ -30,8 +32,10 @@
     <!-- preline -->
     <script src="<?= base_url() ?>node_modules/preline/dist/preline.js" defer></script>
 
-    <script src="<?= assets_path('js\navbar.js') ?>" defer></script>
+    <!-- <script src="<?= assets_path('js\navbar.js') ?>" defer></script> -->
     <script src="<?= assets_path('js\sidebar.js') ?>" defer></script>
+
+    <script src="<?= assets_path('js/htmx/htmx.min.js') ?>"></script>
 
     <?= $this->render_section('include') ?>
 </head>
@@ -41,9 +45,11 @@
 
     <?= $this->include('layout/sidebar') ?>
 
-    <div class="content">
+    <div class="content p-10 dark:text-white text-black">
         <?= $this->render_section('content') ?>
     </div>
+
+    <?= $this->include('layout/footer') ?>
 </body>
 
 </html>

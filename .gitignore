@@ -1,3 +1,5 @@
 node_modules/
 
 lib/scripts/src/rs/target/
+lib/scripts/src/rs-lines/target/
+

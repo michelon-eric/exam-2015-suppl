@@ -8,17 +8,36 @@ use Lib\Systems\Controllers\Controller;
 
 class AuthController extends Controller
 {
-    public function index()
+    public function manager_register()
     {
+        return view('auth/register', [
+            'type' => 'manager',
+        ]);
     }
 
-    public function signin()
+    public function manager_login()
     {
-        echo 'signin';
+        return view('auth/login', [
+            'type' => 'manager',
+        ]);
     }
 
-    public function signup()
+
+    public function user_register()
     {
-        return 'signup';
+        return view('auth/register', [
+            'type' => 'regular',
+        ]);
+    }
+    public function user_login()
+    {
+        return view('auth/login', [
+            'type' => 'regular',
+        ]);
+    }
+
+    public function exec_manager_register()
+    {
+        redirect('/home');
     }
 }

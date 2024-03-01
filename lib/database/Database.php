@@ -6,6 +6,9 @@ class Database
 {
     private static $connection;
 
+    private static $last_query = '';
+
+
     private static function connect()
     {
         if (self::$connection === null) {
@@ -24,12 +27,30 @@ class Database
         return self::$connection;
     }
 
+    private static function execute_query(\mysqli_stmt $statement)
+    {
+        $statement->execute();
+
+        if ($statement->error) {
+            die("Error in query execution: " . $statement->error);
+        }
+
+        Database::$last_query = $statement;
+        return $statement;
+    }
+
     public static function query($sql, $bindings = [])
     {
         $connection = self::connect();
 
-        /** @var \mysqli_stmt */
-        $statement = $connection->prepare($sql);
+        if ($sql instanceof QueryBuilder) {
+            $builtQuery = $sql->get_query();
+            $bindings = $sql->get_bindings();
+
+            $statement = $connection->prepare($builtQuery);
+        } else {
+            $statement = $connection->prepare($sql);
+        }
 
         if ($statement === false) {
             die("Error in query preparation: " . $connection->error);
@@ -51,13 +72,7 @@ class Database
             $statement->bind_param($types, ...$bindings);
         }
 
-        $statement->execute();
-
-        if ($statement->error) {
-            die("Error in query execution: " . $statement->error);
-        }
-
-        return $statement;
+        return self::execute_query($statement);
     }
 
     public static function table($table)
@@ -150,5 +165,10 @@ class Database
         self::query($sql, [$id]);
 
         return true;
+    }
+
+    public static function get_last_query()
+    {
+        return Database::$last_query;
     }
 }

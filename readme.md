@@ -6,6 +6,12 @@ I took a lot of inspiration from other frameworks but this is all my own code wr
 
 actually you know what this is going well I'm happy &lt;-- not in touch with the reality of the situation
 
+#### libraries and shit
+
+-   htmx
+-   tailwind
+-   preline
+
 ---
 
 by Michelon Eric

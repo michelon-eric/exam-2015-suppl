@@ -40,4 +40,5 @@ goto success;
 
 error:
 view('errors/404');
+
 success:
