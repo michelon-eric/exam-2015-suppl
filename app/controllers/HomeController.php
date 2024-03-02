@@ -11,6 +11,11 @@ use Lib\Systems\Controllers\Controller;
 
 class HomeController extends Controller
 {
+    public function index()
+    {
+        view('page_picker');
+    }
+
     public function home()
     {
         return 'meow';
