@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-include lib_models_url . 'Model.php';
+// include lib_models_url . 'Model.php';
 
 use Lib\Systems\Models\Model;
 

@@ -5,6 +5,8 @@
 <?php $this->data['title'] = ($type === 'regular' ? 'Web-App' : 'Web-App (Manager)'); ?>
 <?= $this->include('layout/floatingheader') ?>
 
+<?= $this->render_section('include') ?>
+
 <div>
     <?= $this->render_section('content') ?>
 </div>

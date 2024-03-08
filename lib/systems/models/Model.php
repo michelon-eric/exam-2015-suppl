@@ -2,23 +2,15 @@
 
 namespace Lib\Systems\Models;
 
-include  lib_url . 'Database/Database.php';
-include lib_url . 'Database/QueryBuilder.php';
-
-use \Lib\Database\Database as Database;
-use \Lib\Database\QueryBuilder as QueryBuilder;
+use \Lib\Database\Database;
 
 class Model
 {
     protected $table;
 
     protected $primary_key;
-
-    protected $select = ['*'];
     protected $where = [];
-    protected $group_by = '';
-    protected $having = [];
-    protected $join = [];
+    protected $last_query = '';
 
     public function __construct()
     {
@@ -26,97 +18,90 @@ class Model
         $this->table = strtolower($class_name) . 's';
     }
 
-    public function select(array $columns)
+    public function all(): array|bool|string
     {
-        $this->select = $columns;
-        return $this;
+        return Database::table($this->table);
     }
 
-    public function where(array $conditions)
-    {
-        $this->where = $conditions;
-        return $this;
-    }
-
-    public function group_by($column)
-    {
-        $this->group_by = $column;
-        return $this;
-    }
-
-    public function having(array $conditions)
-    {
-        $this->having = $conditions;
-        return $this;
-    }
-
-    public function join($table)
-    {
-        $this->join[] = compact('table', 'type', 'conditions');
-        return $this;
-    }
-
-    public function on(array $conditions)
-    {
-        $lastJoin = end($this->join);
-        if ($lastJoin) {
-            $lastJoin['conditions'] = $conditions;
-        }
-        return $this;
-    }
-
-    public function get()
-    {
-        $query_builder = new QueryBuilder();
-
-        $query_builder->from($this->table);
-
-        $query_builder->select($this->select);
-
-        if (!empty($this->where)) {
-            $query_builder->where($this->where);
-        }
-
-        if (!empty($this->group_by)) {
-            $query_builder->group_by($this->group_by);
-        }
-
-        if (!empty($this->having)) {
-            $query_builder->having($this->having);
-        }
-
-        foreach ($this->join as $join) {
-            $query_builder->join($join['table']);
-            if (!empty($join['conditions'])) {
-                $query_builder->on($join['conditions']);
-            }
-        }
-
-        return $query_builder->get();
-    }
-
-    public function find($id)
+    public function find($id): array|bool|null
     {
         return Database::find($this->table, $id, $this->primary_key);
     }
 
-    public function insert(array $data)
+    public function insert(array $data): bool|int|string
     {
         return Database::insert($this->table, $data);
     }
 
-    public function update($id, array $data)
+    public function update($id, array $data): bool
     {
         return Database::update($this->table, $id, $data, $this->primary_key);
     }
 
-    public function delete($id)
+    public function delete($id): bool
     {
         return Database::delete($this->table, $id, $this->primary_key);
     }
 
-    public function query($sql, array $bindings)
+    public function query($sql, array $bindings): bool|\mysqli_stmt
     {
         return Database::query($sql, $bindings);
+    }
+
+    public function select_where(array $conditions): array|bool
+    {
+        $sql = "SELECT * FROM `$this->table` WHERE ";
+
+        $placeholders = [];
+        $values = [];
+
+        foreach ($conditions as $column => $value) {
+            $placeholders[] = "`{$column}` = ?";
+            $values[] = $value;
+        }
+
+        $sql .= implode(' AND ', $placeholders);
+
+        $result = $this->query($sql, $values);
+        if ($result === false) return false;
+
+        $result = $result->get_result();
+        if ($result === false) return false;
+
+        return $result->fetch_all(MYSQLI_ASSOC);
+    }
+
+    public function select_where_first(array $conditions): array|bool|null
+    {
+        $sql = "SELECT * FROM `$this->table` WHERE ";
+
+        $placeholders = [];
+        $values = [];
+
+        foreach ($conditions as $column => $value) {
+            $placeholders[] = "`{$column}` = ?";
+            $values[] = $value;
+        }
+
+        $sql .= implode(' AND ', $placeholders);
+        $sql .= ' LIMIT 1';
+
+        $result = $this->query($sql, $values);
+        if ($result === false) return false;
+
+        $result = $result->get_result();
+        if ($result === false) return false;
+
+        return $result->fetch_assoc();
+    }
+
+    public function get_last_query(): string
+    {
+        return $this->last_query;
+    }
+
+    public function get_table(): string
+    {
+        return $this->table;
     }
 }

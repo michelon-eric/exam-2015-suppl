@@ -6,10 +6,7 @@ class Database
 {
     private static $connection;
 
-    private static $last_query = '';
-
-
-    private static function connect()
+    private static function connect(): \mysqli
     {
         if (self::$connection === null) {
             $host = database_host;
@@ -27,30 +24,12 @@ class Database
         return self::$connection;
     }
 
-    private static function execute_query(\mysqli_stmt $statement)
-    {
-        $statement->execute();
-
-        if ($statement->error) {
-            die("Error in query execution: " . $statement->error);
-        }
-
-        Database::$last_query = $statement;
-        return $statement;
-    }
-
-    public static function query($sql, $bindings = [])
+    public static function query($sql, $bindings = []): \mysqli_stmt|false
     {
         $connection = self::connect();
 
-        if ($sql instanceof QueryBuilder) {
-            $builtQuery = $sql->get_query();
-            $bindings = $sql->get_bindings();
-
-            $statement = $connection->prepare($builtQuery);
-        } else {
-            $statement = $connection->prepare($sql);
-        }
+        /** @var \mysqli_stmt */
+        $statement = $connection->prepare($sql);
 
         if ($statement === false) {
             die("Error in query preparation: " . $connection->error);
@@ -58,8 +37,10 @@ class Database
 
         if (!empty($bindings)) {
             $types = '';
+            $params = [];
 
-            foreach ($bindings as $value) {
+            foreach ($bindings as $key => &$value) {
+                $params[$key] = &$value;
                 if (is_int($value)) {
                     $types .= 'i';
                 } elseif (is_float($value)) {
@@ -69,16 +50,25 @@ class Database
                 }
             }
 
-            $statement->bind_param($types, ...$bindings);
+            array_unshift($params, $types);
+            call_user_func_array([$statement, 'bind_param'], $params);
         }
 
-        return self::execute_query($statement);
+        $statement->execute();
+
+        if ($statement->error) {
+            return false;
+        }
+
+        return $statement;
     }
 
-    public static function table($table)
+    public static function table($table): array|bool|string
     {
         $sql = "SELECT * FROM $table";
         $result = self::query($sql);
+
+        if ($result === false) return false;
 
         $rows = [];
         $result->store_result();
@@ -104,10 +94,14 @@ class Database
         return $rows;
     }
 
-    public static function find($table, $id, $primary_key = 'id')
+    public static function find($table, $id, $primary_key = 'id'): array|null|bool
     {
         $sql = "SELECT * FROM $table WHERE $primary_key = ?";
         $result = self::query($sql, [$id]);
+
+        if ($result === false) {
+            return false;
+        }
 
         $result->store_result();
 
@@ -124,7 +118,7 @@ class Database
 
             if ($result->fetch()) {
                 return array_map(function ($value) {
-                    return mb_convert_encoding($value, 'UTF-8', 'ISO-8859-1');
+                    return $value !== null ? mb_convert_encoding($value, 'UTF-8', 'ISO-8859-1') : null;
                 }, $row);
             }
         }
@@ -132,7 +126,7 @@ class Database
         return null;
     }
 
-    public static function insert($table, $data)
+    public static function insert($table, $data): int|string|bool
     {
         $columns = implode(', ', array_keys($data));
         $values = implode(', ', array_fill(0, count($data), '?'));
@@ -140,12 +134,15 @@ class Database
         $sql = "INSERT INTO $table ($columns) VALUES ($values)";
         $bindings = array_values($data);
 
-        self::query($sql, $bindings);
+        $result = self::query($sql, $bindings);
+        if ($result === false) {
+            return false;
+        }
 
-        return self::connect()->insert_id;
+        return $result->insert_id;
     }
 
-    public static function update($table, $id, $data, $primary_key = 'id')
+    public static function update($table, $id, $data, $primary_key = 'id'): bool
     {
         $set_clause = implode(', ', array_map(function ($column) {
             return "$column = ?";
@@ -154,21 +151,24 @@ class Database
         $bindings = array_merge(array_values($data), [$id]);
 
         $sql = "UPDATE $table SET $set_clause WHERE $primary_key = ?";
-        self::query($sql, $bindings);
+        $result = self::query($sql, $bindings);
+
+        if ($result === false) {
+            return false;
+        }
 
         return true;
     }
 
-    public static function delete($table, $id, $primary_key = 'id')
+    public static function delete($table, $id, $primary_key = 'id'): bool
     {
         $sql = "DELETE FROM $table WHERE $primary_key = ?";
-        self::query($sql, [$id]);
+        $result = self::query($sql, [$id]);
+
+        if ($result === false) {
+            return false;
+        }
 
         return true;
-    }
-
-    public static function get_last_query()
-    {
-        return Database::$last_query;
     }
 }

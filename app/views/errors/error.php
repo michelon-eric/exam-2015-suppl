@@ -1,6 +1,8 @@
 <?php
 
-/** @var \Lib\Systems\Views\View $this */ ?>
+/** @var \Lib\Systems\Views\View $this */
+/** @var \Exception $error */
+?>
 
 <?= $this->extend('layout/basepage') ?>
 
@@ -9,15 +11,15 @@
 <div class="max-w-[50rem] flex flex-col mx-auto size-full">
     <header class="mb-auto flex justify-center z-50 w-full py-4">
         <nav class="px-4 sm:px-6 lg:px-8" aria-label="Global">
-            <a class="flex-none text-xl font-semibold sm:text-3xl dark:text-white" href="#" aria-label="Brand">Nople Dople</a>
+            <a class="flex-none text-xl font-semibold sm:text-3xl dark:text-white" href="#" aria-label="Brand">Fukcy Wacky</a>
         </nav>
     </header>
 
     <div class="text-center py-10 px-4 sm:px-6 lg:px-8">
-        <h1 class="block text-7xl font-bold text-gray-800 sm:text-9xl dark:text-white">404</h1>
+        <h1 class="block text-7xl font-bold text-gray-800 sm:text-9xl dark:text-white"><?= $error->getCode() ?></h1>
         <h1 class="block text-2xl font-bold text-white"></h1>
-        <p class="mt-3 text-gray-600 dark:text-gray-400">Oops, something went wrong.</p>
-        <p class="text-gray-600 dark:text-gray-400">Sorry, we couldn't find your page.</p>
+        <p class="mt-3 text-gray-600 dark:text-gray-400"><?= $error->getMessage() ?></p>
+        <p class="text-gray-600 dark:text-gray-400">at: <?= $error->getFile() ?> line <?= $error->getFile() ?></p>
         <div class="mt-5 flex flex-col justify-center items-center gap-2 sm:flex-row sm:gap-3">
             <a class="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="https://github.com/michelon-eric/exam-2015-suppl" target="_blank">
                 <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">

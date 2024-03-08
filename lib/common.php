@@ -25,18 +25,9 @@ if (!function_exists('view')) {
 if (!function_exists('session')) {
     include lib_url . 'SessionHandler.php';
 
-    function session()
+    function session(): Lib\SessionHandler
     {
         return Lib\SessionHandler::get_instance();
-    }
-}
-
-if (!function_exists('cache')) {
-    include lib_url . 'CacheHandler.php';
-
-    function cache()
-    {
-        return Lib\CacheHandler::get_instance();
     }
 }
 
@@ -49,7 +40,7 @@ if (!function_exists('redirect')) {
 }
 
 if (!function_exists('assets_path')) {
-    function assets_path($url)
+    function assets_path($url = ''): string
     {
         $app_path = app_assets_url . $url;
         if (!file_exists($app_path)) {
@@ -68,7 +59,7 @@ if (!function_exists('assets_path')) {
 }
 
 if (!function_exists('base_url')) {
-    function base_url($url = '')
+    function base_url($url = ''): string
     {
         $base_url = "http" . (($_SERVER['SERVER_PORT'] == 443) ? "s" : "") . "://" . $_SERVER['HTTP_HOST'] . '/';
         return $base_url . $url;
@@ -76,7 +67,7 @@ if (!function_exists('base_url')) {
 }
 
 if (!function_exists('sanitize_input')) {
-    function sanitize_input($input)
+    function sanitize_input($input): array|string
     {
         if (is_array($input)) {
             return array_map('sanitize_input', $input);
@@ -92,7 +83,7 @@ if (!function_exists('set_flash_message') && !function_exists('get_flash_message
         session()->set($key, $message);
     }
 
-    function get_flash_message($key)
+    function get_flash_message($key): mixed
     {
         $message = session()->get($key, null);
         session()->remove($key);
@@ -111,14 +102,14 @@ if (!function_exists('json_response')) {
 }
 
 if (!function_exists('generate_csrf_token') && !function_exists('verify_csrf_token')) {
-    function generate_csrf_token()
+    function generate_csrf_token(): string
     {
         $token = bin2hex(random_bytes(32));
         session()->set('csrf-token', $token);
         return $token;
     }
 
-    function verify_csrf_token($token)
+    function verify_csrf_token($token): bool
     {
         return session()->get('csrf-token', false) && session()->get('csrf-token') === $token;
     }
@@ -139,6 +130,20 @@ if (!function_exists('log_error') && !function_exists('log_info')) {
         error_log("[INFO] " . date('Y-m-d H:i:s') . ": " . $message . PHP_EOL, 3, $log_file);
     }
 
+    function log_warn($message)
+    {
+        $log_file = app_url . '/.logs/logs.log';
+        create_log_file_if_not_exists($log_file);
+        error_log("[WARN] " . date('Y-m-d H:i:s') . ": " . $message . PHP_EOL, 3, $log_file);
+    }
+
+    function log_debug($message)
+    {
+        $log_file = app_url . '/.logs/logs.log';
+        create_log_file_if_not_exists($log_file);
+        error_log("[DEBUG] " . date('Y-m-d H:i:s') . ": " . $message . PHP_EOL, 3, $log_file);
+    }
+
     function create_log_file_if_not_exists($log_file)
     {
         if (!file_exists($log_file)) {
@@ -148,5 +153,17 @@ if (!function_exists('log_error') && !function_exists('log_info')) {
             }
             touch($log_file);
         }
+    }
+}
+
+if (!function_exists('chash')) {
+    function chash(mixed $value, bool $binary = false): string
+    {
+        return md5($value, $binary);
+    }
+
+    function heck_chash(string $hashed, string $value): bool
+    {
+        return chash($value) === $hashed;
     }
 }
