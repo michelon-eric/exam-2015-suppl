@@ -19,12 +19,13 @@ class View
 
     public function render()
     {
-        if ($this->data !== null) extract($this->data);
+        if ($this->data !== null)
+            extract($this->data);
 
         $file_path = app_views_url . "{$this->name}.php";
 
         if (!file_exists($file_path)) {
-            redirect('404');
+            throw new \Exception("trying to render file $file_path that doesn't exist");
         }
 
         include app_views_url . "{$this->name}.php";
@@ -84,5 +85,17 @@ class View
     public function get_name()
     {
         return $this->name;
+    }
+
+    public function __set($name, $value)
+    {
+        $this->data[$name] = $value;
+    }
+
+    public function __get($name)
+    {
+        return isset($this->$name)
+            ? $this->$name
+            : $this->data[$name];
     }
 }

@@ -8,5 +8,5 @@ use Lib\Systems\Models\Model;
 
 class UserModel extends Model
 {
-    protected $primary_key = 'USR_ID';
+    protected string $primary_key = 'USR_ID';
 }

@@ -1,17 +1,3 @@
-<?php
-
-/** @var \Lib\Systems\Views\View $this */
-
-?>
-
-<?= $this->extend('auth/base') ?>
-
-<?= $this->section('include') ?>
-<script type="module" src="<?= assets_path() ?>js/auth/login.js" defer></script>
-<?= $this->end_section() ?>
-
-<?= $this->section('content') ?>
-
 <div>
     <main class="w-full max-w-md mx-auto p-6">
         <div class="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-800 dark:border-gray-700">
@@ -20,17 +6,15 @@
                     <h1 class="block text-2xl font-bold text-gray-800 dark:text-white">Log in</h1>
                     <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
                         Don't have an account yet?
-                        <a class="text-blue-600 decoration-2 hover:underline font-medium dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" hx-get="<?= base_url() ?>auth/<?= $type === 'regular' ? 'user' : 'manager' ?>/register" hx-trigger="click" hx-target="#content">
+                        <a class="text-blue-600 decoration-2 hover:underline font-medium dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" hx-get="<?= base_url() ?>partials/auth/register" hx-trigger="click" hx-target="#content">
                             Register here
                         </a>
                     </p>
                 </div>
 
                 <div class="mt-5">
-                    <!-- Form -->
                     <form action="#" method="">
                         <div class="grid gap-y-4">
-                            <!-- Form Group -->
                             <div>
                                 <label for="email" class="block text-sm mb-2 dark:text-white">Email address</label>
                                 <div class="relative">
@@ -43,9 +27,7 @@
                                 </div>
                                 <p class="hidden text-xs text-red-600 mt-2" id="email-error">Email not found</p>
                             </div>
-                            <!-- End Form Group -->
 
-                            <!-- Form Group -->
                             <div>
                                 <div class="flex justify-between items-center">
                                     <label for="password" class="block text-sm mb-2 dark:text-white">Password</label>
@@ -61,9 +43,7 @@
                                 </div>
                                 <p class="hidden text-xs text-red-600 mt-2" id="password-error">Wrong password</p>
                             </div>
-                            <!-- End Form Group -->
 
-                            <!-- Checkbox -->
                             <div class="flex items-center">
                                 <div class="flex">
                                     <input id="remember-me" name="remember-me" type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800">
@@ -72,16 +52,14 @@
                                     <label for="remember-me" class="text-sm dark:text-white">Remember me</label>
                                 </div>
                             </div>
-                            <!-- End Checkbox -->
 
-                            <button id="button-login" type="button" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">Sign in</button>
+                            <button id="button-login" type="button" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" hx-post="<?= base_url() ?>auth/login" hx-trigger="click" hx-swap="none" hx-include="#email, #password, #remember-me" hx-on::after-request="loginCallback(htmx, null, event)" hx-redirect="true">
+                                Log in
+                            </button>
                         </div>
                     </form>
-                    <!-- End Form -->
                 </div>
             </div>
         </div>
     </main>
 </div>
-
-<?= $this->end_section() ?>

@@ -1,0 +1,17 @@
+
+[INFO] 2024-03-15 15:14:29: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-15 15:14:29: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-15 15:14:29: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php

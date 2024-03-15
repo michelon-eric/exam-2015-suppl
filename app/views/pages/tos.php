@@ -1,8 +1,9 @@
 <?php
+/** @var \Lib\Systems\Views\View $this */
+$this->title = 'Terms of Service';
+?>
 
-/** @var \Lib\Systems\Views\View $this */ ?>
-
-<?= $this->extend('layout/basepage') ?>
+<?= $this->extend('layout/base') ?>
 
 <?= $this->section('content') ?>
 <div class="flex items-center justify-center h-screen">

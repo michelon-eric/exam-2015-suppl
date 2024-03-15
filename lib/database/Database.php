@@ -17,6 +17,7 @@ class Database
             self::$connection = new \mysqli($host, $username, $password, $dbname);
 
             if (self::$connection->connect_error) {
+                log_error("Connection failed\n\t\tError: " . self::$connection->connect_error);
                 die("Connection failed: " . self::$connection->connect_error);
             }
         }
@@ -57,6 +58,7 @@ class Database
         $statement->execute();
 
         if ($statement->error) {
+            log_error("Database error: \n\t\tError: $statement->error");
             return false;
         }
 
@@ -68,7 +70,8 @@ class Database
         $sql = "SELECT * FROM $table";
         $result = self::query($sql);
 
-        if ($result === false) return false;
+        if ($result === false)
+            return false;
 
         $rows = [];
         $result->store_result();

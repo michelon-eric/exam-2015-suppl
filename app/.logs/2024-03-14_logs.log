@@ -1,0 +1,1156 @@
+
+[INFO] 2024-03-14 15:12:11: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-14 15:12:11: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-14 15:12:11: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:25:21: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-14 15:25:23: 403 - Forbidden
+		Request: /auth
+		Uri: http://localhost/auth
+[14-Mar-2024 15:25:23 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php on line 99
+
+[ERROR] 2024-03-14 15:25:35: 403 - Forbidden
+		Request: /auth
+		Uri: http://localhost/auth
+[14-Mar-2024 15:25:35 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php on line 99
+
+[INFO] 2024-03-14 15:25:36: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:25:37: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-14 15:25:38: 403 - Forbidden
+		Request: /auth
+		Uri: http://localhost/auth
+[14-Mar-2024 15:25:38 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php on line 99
+
+[INFO] 2024-03-14 15:25:45: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-14 15:25:45: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-14 15:25:45: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:26:14: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-14 15:26:17: 403 - Forbidden
+		Request: /auth
+		Uri: http://localhost/auth
+[14-Mar-2024 15:26:17 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php on line 99
+
+[INFO] 2024-03-14 15:32:58: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:32:59: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:37:32: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:38:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:39:01: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:39:13: serving '/auth?login=login'
+		Uri: http://localhost/auth?login=login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 15:40:10: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:40:12: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 15:40:14: serving '/auth?register'
+		Uri: http://localhost/auth?register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 15:40:16: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 15:40:17: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+[ERROR] 2024-03-14 15:40:17: Error: Call to undefined method App\Controllers\PartialsController::register() in C:\xampp\htdocs\school\exam-2015-suppl\index.php:92
+Stack trace:
+#0 {main}
+
+[INFO] 2024-03-14 15:40:59: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 15:41:01: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:02: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:02: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:03: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:03: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:04: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:05: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:05: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:06: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:06: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:41:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 15:48:47: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 15:48:55: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 15:48:59: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 15:49:55: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 15:49:55: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 15:50:30: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:50:30: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 15:50:40: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 15:51:23: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 15:51:23: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 15:55:39: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:02:37: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:02:37: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:02:39: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:08:27: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:08:27: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:08:34: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:08:37: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:09:09: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:09:09: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:09:47: serving '/'
+		Uri: http://192.168.1.112/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-14 16:09:47: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-14 16:09:47: serving '/dashboard'
+		Uri: http://192.168.1.112/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 16:09:54: serving '/auth?login'
+		Uri: http://192.168.1.112/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:09:56: serving '/auth/login'
+		Uri: http://192.168.1.112/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:10:22: serving '/auth?login'
+		Uri: http://192.168.1.112/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:10:22: serving '/auth/login'
+		Uri: http://192.168.1.112/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:11:13: serving '/auth/login'
+		Uri: http://192.168.1.112/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:11:26: serving '/auth?login'
+		Uri: http://192.168.1.112/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:11:31: serving '/'
+		Uri: http://127.0.0.1/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-14 16:11:31: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-14 16:11:31: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 16:11:39: serving '/partials/auth/login'
+		Uri: http://192.168.1.112/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 16:11:43: serving '/partials/auth/register'
+		Uri: http://192.168.1.112/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 16:11:55: serving '/tos'
+		Uri: http://192.168.1.112/tos
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'tos'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 16:12:14: serving '/partials/auth/register'
+		Uri: http://192.168.1.112/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-14 16:14:19: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:14:30: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:14:31: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:14:31: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:16:38: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:16:42: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:16:43: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:16:45: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:16:46: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:16:49: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:16:56: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:16:58: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:17:00: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:01: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:02: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:04: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:06: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:07: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:08: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:09: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:10: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:11: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:15: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:16: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:18: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:17:19: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:19: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:17:20: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:17:20: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:21: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:17:22: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:22: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:24: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:17:25: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:26: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:32: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:17:36: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:38: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:17:41: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:18:05: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:05: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:18:06: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:18:07: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:09: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:18:09: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:10: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:11: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:18:14: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:19: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:21: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:18:21: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:22: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:23: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:24: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:18:51: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:53: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:54: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:18:55: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 16:19:09: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-14 16:19:09: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-14 16:19:09: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 16:19:11: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:19:12: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+[14-Mar-2024 16:19:15 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=11344 in C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php on line 17
+
+[INFO] 2024-03-14 16:19:15: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+[14-Mar-2024 16:19:19 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=11344 in C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php on line 17
+
+[INFO] 2024-03-14 16:20:46: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-14 16:20:47: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 17:17:12: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-14 18:43:35: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-14 18:43:35: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-14 18:43:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-14 18:43:43: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-14 18:43:43: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-14 18:43:43: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php

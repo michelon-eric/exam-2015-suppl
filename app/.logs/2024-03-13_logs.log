@@ -1,0 +1,784 @@
+
+[INFO] 2024-03-13 13:28:47: serving '/faq'
+		Uri: http://127.0.0.1/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:28:50: serving '/useredit'
+		Uri: http://127.0.0.1/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit_get'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[13-Mar-2024 13:28:50 Europe/Berlin] PHP Warning:  Undefined variable $rolse in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\useredit\useredit.php on line 36
+
+[INFO] 2024-03-13 13:28:50: serving '/partials/useredit/useredit'
+		Uri: http://127.0.0.1/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-13 13:29:27: serving '/useredit'
+		Uri: http://127.0.0.1/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit_get'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:29:27: serving '/partials/useredit/useredit'
+		Uri: http://127.0.0.1/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-13 13:29:28: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://127.0.0.1/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-13 13:29:29: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://127.0.0.1/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-13 13:30:07: serving '/useredit'
+		Uri: http://127.0.0.1/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit_get'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:30:07: serving '/partials/useredit/useredit'
+		Uri: http://127.0.0.1/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-13 13:50:05: serving '/useredit'
+		Uri: http://127.0.0.1/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit_get'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:50:05: serving '/partials/useredit/useredit'
+		Uri: http://127.0.0.1/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-13 13:50:06: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:50:09: serving '/auth?logout'
+		Uri: http://127.0.0.1/auth?logout
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+[DEBUG] 2024-03-13 13:50:09: redirect
+		Header: 'HX-Redirect:'
+		Url: 'http://127.0.0.1/'
+
+[INFO] 2024-03-13 13:50:09: serving '/'
+		Uri: http://127.0.0.1/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-13 13:50:09: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-13 13:50:09: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:50:22: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:50:23: serving '/auth?login'
+		Uri: http://127.0.0.1/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-13 13:50:32: serving '/auth/login'
+		Uri: http://127.0.0.1/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 3
+[INFO] 2024-03-13 13:50:32: logged in Administrator user: akemi@homura.com with id: 2
+[DEBUG] 2024-03-13 13:50:32: redirect
+		Header: 'HX-Redirect:'
+		Url: 'http://127.0.0.1/dashboard'
+
+[INFO] 2024-03-13 13:50:32: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:50:36: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:51:33: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:51:34: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:54:45: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:55:07: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:55:17: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:55:46: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:55:50: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:55:51: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:55:51: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 13:59:10: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-13 13:59:10: Administrator
+
+[INFO] 2024-03-13 14:07:58: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 14:08:00: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 14:08:10: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 14:08:48: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 14:08:50: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 14:08:51: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 15:02:52: serving '/'
+		Uri: http://192.168.1.112/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-13 15:02:52: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-13 15:02:52: serving '/dashboard'
+		Uri: http://192.168.1.112/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 15:46:05: serving '/faq'
+		Uri: http://127.0.0.1/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 15:46:23: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 15:46:24: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 15:46:27: serving '/faq'
+		Uri: http://127.0.0.1/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 15:46:29: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 18:51:38: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 18:53:17: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-13 18:53:19: 404 - Not Found
+		Request: /centres/dashboard
+		Uri: http://127.0.0.1/centres/dashboard
+
+[INFO] 2024-03-13 18:53:26: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 18:53:27: serving '/centre/dashboard'
+		Uri: http://127.0.0.1/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[ERROR] 2024-03-13 19:21:18: 404 - Not Found
+		Request: /centre/dashboard
+		Uri: http://127.0.0.1/centre/dashboard
+
+[INFO] 2024-03-13 19:21:22: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:22:02: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+[13-Mar-2024 19:22:02 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php on line 99
+
+[INFO] 2024-03-13 19:22:41: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:38:05: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:38:08: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 19:38:08: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:38:09: serving '/faq'
+		Uri: http://127.0.0.1/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 19:38:13: serving '/useredit'
+		Uri: http://127.0.0.1/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit_get'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 19:38:13: serving '/partials/useredit/useredit'
+		Uri: http://127.0.0.1/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-13 19:38:18: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:42:17: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+[DEBUG] 2024-03-13 19:42:17: Array
+(
+    [0] => Array
+        (
+            [CTR_Id] => 24
+            [CTR_Name] => Kamihama
+            [CTR_Address] => Street y
+            [CTR_City] => Kamihama-Shi
+            [CTR_PostalCode] => 12345
+            [CTR_Phone] => 
+            [ROL_Id] => 8
+            [ROL_IdUser] => 2
+            [ROL_IdCentre] => 24
+            [ROL_Role] => Administrator
+        )
+
+)
+
+
+[INFO] 2024-03-13 19:46:35: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:51:49: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+[13-Mar-2024 19:51:49 Europe/Berlin] PHP Warning:  Undefined array key "CTR_TotalResourcesCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 152
+[13-Mar-2024 19:51:49 Europe/Berlin] PHP Warning:  Undefined array key "CTR_BookedResourcesCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 159
+[13-Mar-2024 19:51:49 Europe/Berlin] PHP Warning:  Undefined array key "CTR_BrokenResourcesCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 166
+[13-Mar-2024 19:51:49 Europe/Berlin] PHP Warning:  Undefined array key "CTR_CustomersCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 173
+[13-Mar-2024 19:51:49 Europe/Berlin] PHP Warning:  Undefined array key "CTR_ModeratorsCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 180
+
+[INFO] 2024-03-13 19:52:13: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+[13-Mar-2024 19:52:13 Europe/Berlin] PHP Warning:  Undefined array key "CTR_TotalResourcesCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 152
+[13-Mar-2024 19:52:13 Europe/Berlin] PHP Warning:  Undefined array key "CTR_BookedResourcesCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 159
+[13-Mar-2024 19:52:13 Europe/Berlin] PHP Warning:  Undefined array key "CTR_BrokenResourcesCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 166
+[13-Mar-2024 19:52:13 Europe/Berlin] PHP Warning:  Undefined array key "CTR_CustomersCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 173
+[13-Mar-2024 19:52:13 Europe/Berlin] PHP Warning:  Undefined array key "CTR_ModeratorsCount" in C:\xampp\htdocs\school\exam-2015-suppl\app\views\pages\centre\dashboard.php on line 180
+
+[INFO] 2024-03-13 19:54:45: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+[ERROR] 2024-03-13 19:54:45: mysqli_sql_exception: Unknown column 'USR_Role' in 'where clause' in C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php:32
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php(32): mysqli->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\models\Model.php(48): Lib\Database\Database::query('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php(87): Lib\Systems\Models\Model->query('SELECT COUNT(*)...', Array)
+#3 [internal function]: App\Controllers\CentreController->App\Controllers\{closure}(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php(78): array_map(Object(Closure), Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(92): App\Controllers\CentreController->dashboard(Array)
+#6 {main}
+
+[INFO] 2024-03-13 19:55:17: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:56:00: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:56:27: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:58:55: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 19:59:44: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:00:15: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:00:30: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:01:52: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+[ERROR] 2024-03-13 20:01:52: mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`ROL_Role` = 'Regular'' at line 1 in C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php:32
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php(32): mysqli->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\models\Model.php(48): Lib\Database\Database::query('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php(87): Lib\Systems\Models\Model->query('SELECT COUNT(*)...', Array)
+#3 [internal function]: App\Controllers\CentreController->App\Controllers\{closure}(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php(78): array_map(Object(Closure), Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(92): App\Controllers\CentreController->dashboard(Array)
+#6 {main}
+
+[INFO] 2024-03-13 20:02:00: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:02:29: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:02:49: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 20:02:51: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:02:55: serving '/dashboard'
+		Uri: http://127.0.0.1/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-13 20:02:56: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:11:09: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+[INFO] 2024-03-13 20:33:41: Generating new encryption-key
+
+[INFO] 2024-03-13 20:33:41: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:34:42: Generating new encryption-key
+
+[INFO] 2024-03-13 20:34:42: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:36:57: Generating new encryption key\n\t\tUrl: C:\xampp\htdocs\school\exam-2015-suppl\app\config\encryption-key
+
+[INFO] 2024-03-13 20:36:57: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:37:22: Generating new encryption key
+		Url: C:\xampp\htdocs\school\exam-2015-suppl\app\config\encryption-key
+[13-Mar-2024 20:37:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\school\exam-2015-suppl\app\config\Routes.php on line 24
+
+[INFO] 2024-03-13 20:37:37: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:38:16: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:38:27: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:38:36: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:40:16: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:41:06: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:41:33: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:41:47: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:52:53: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[ERROR] 2024-03-13 20:52:54: 404 - Not Found
+		Request: /centres/centre/dashboard?centre=Ui9mVWxMQS83MzFhcjdROHVYZXNDUT09Ojq%2BGaWizvis22PnlubZ8mIc
+		Uri: http://127.0.0.1/centres/centre/dashboard?centre=Ui9mVWxMQS83MzFhcjdROHVYZXNDUT09Ojq%2BGaWizvis22PnlubZ8mIc
+		Get-Params-Count 1
+
+[ERROR] 2024-03-13 20:52:56: 404 - Not Found
+		Request: /centres/centre/dashboard?centre=Ui9mVWxMQS83MzFhcjdROHVYZXNDUT09Ojq%2BGaWizvis22PnlubZ8mIc
+		Uri: http://127.0.0.1/centres/centre/dashboard?centre=Ui9mVWxMQS83MzFhcjdROHVYZXNDUT09Ojq%2BGaWizvis22PnlubZ8mIc
+		Get-Params-Count 1
+
+[INFO] 2024-03-13 20:53:09: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:53:10: serving '/centres/centre/dashboard?centre=Y3FleWF0bFpQR0NRYm04Q1ZiTFBqQT09Ojr%2FQSPSJeSyzMJyK7TviVx1'
+		Uri: http://127.0.0.1/centres/centre/dashboard?centre=Y3FleWF0bFpQR0NRYm04Q1ZiTFBqQT09Ojr%2FQSPSJeSyzMJyK7TviVx1
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre_dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-13 20:54:18: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 20:55:01: serving '/centres/centre/dashboard?centre=Z0ZYR2dlVnVYV3pHQy81QUx1di9hdz09Ojo6PrFSRxaXTSWPAEaX0qSl'
+		Uri: http://127.0.0.1/centres/centre/dashboard?centre=Z0ZYR2dlVnVYV3pHQy81QUx1di9hdz09Ojo6PrFSRxaXTSWPAEaX0qSl
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre_dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-13 21:15:51: serving '/centres/dashboard'
+		Uri: http://127.0.0.1/centres/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-13 21:16:09: serving '/centres/centre/dashboard?centre=UFp1QUpScEg3QWFBL2sxVXg3clY5dz09OjrZ7JDd0RZwU4Bdfmi0R%2F3u'
+		Uri: http://127.0.0.1/centres/centre/dashboard?centre=UFp1QUpScEg3QWFBL2sxVXg3clY5dz09OjrZ7JDd0RZwU4Bdfmi0R%2F3u
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre_dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-13 21:16:11: serving '/centres/centre/dashboard?centre=UFp1QUpScEg3QWFBL2sxVXg3clY5dz09OjrZ7JDd0RZwU4Bdfmi0R%2F3u'
+		Uri: http://127.0.0.1/centres/centre/dashboard?centre=UFp1QUpScEg3QWFBL2sxVXg3clY5dz09OjrZ7JDd0RZwU4Bdfmi0R%2F3u
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre_dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-13 21:16:12: serving '/centres/centre/dashboard?centre=UFp1QUpScEg3QWFBL2sxVXg3clY5dz09OjrZ7JDd0RZwU4Bdfmi0R%2F3u'
+		Uri: http://127.0.0.1/centres/centre/dashboard?centre=UFp1QUpScEg3QWFBL2sxVXg3clY5dz09OjrZ7JDd0RZwU4Bdfmi0R%2F3u
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre_dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-13 21:16:12: serving '/centres/centre/dashboard?centre=UFp1QUpScEg3QWFBL2sxVXg3clY5dz09OjrZ7JDd0RZwU4Bdfmi0R%2F3u'
+		Uri: http://127.0.0.1/centres/centre/dashboard?centre=UFp1QUpScEg3QWFBL2sxVXg3clY5dz09OjrZ7JDd0RZwU4Bdfmi0R%2F3u
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre_dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1

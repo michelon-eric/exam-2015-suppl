@@ -25,7 +25,7 @@ class Routes
         ];
     }
 
-    public function match($method, $url)
+    public function match($method, $url): null|array
     {
         $urlParts = parse_url($url);
         $path = $urlParts['path'] ?? '';

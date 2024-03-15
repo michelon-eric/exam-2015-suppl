@@ -53,8 +53,13 @@ class SessionHandler
 
     public function get_flash_data($key, $default = null): mixed
     {
-        $value =  $_SESSION['__flash_vars__'][$key] ?? $default;
+        $value = $_SESSION['__flash_vars__'][$key] ?? $default;
         unset($_SESSION['__flash_vars__'][$key]);
         return $value;
+    }
+
+    public function is_set($key): bool
+    {
+        return isset($_SESSION[$key]);
     }
 }

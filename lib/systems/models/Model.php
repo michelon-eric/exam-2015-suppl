@@ -6,11 +6,11 @@ use \Lib\Database\Database;
 
 class Model
 {
-    protected $table;
+    protected string $table;
 
-    protected $primary_key;
-    protected $where = [];
-    protected $last_query = '';
+    protected string $primary_key;
+    protected array $where = [];
+    protected string $last_query = '';
 
     public function __construct()
     {
@@ -63,10 +63,12 @@ class Model
         $sql .= implode(' AND ', $placeholders);
 
         $result = $this->query($sql, $values);
-        if ($result === false) return false;
+        if ($result === false)
+            return false;
 
         $result = $result->get_result();
-        if ($result === false) return false;
+        if ($result === false)
+            return false;
 
         return $result->fetch_all(MYSQLI_ASSOC);
     }
@@ -87,12 +89,55 @@ class Model
         $sql .= ' LIMIT 1';
 
         $result = $this->query($sql, $values);
-        if ($result === false) return false;
+        if ($result === false)
+            return false;
 
         $result = $result->get_result();
-        if ($result === false) return false;
+        if ($result === false)
+            return false;
 
         return $result->fetch_assoc();
+    }
+
+    public function select_count(): int
+    {
+        $sql = "SELECT COUNT(*) FROM `$this->table`";
+        $result = $this->query($sql, []);
+        if ($result === false)
+            return 0;
+
+        $result = $result->get_result();
+        if ($result === false)
+            return 0;
+
+        $row = $result->fetch_row();
+        return $row[0];
+    }
+
+    public function select_count_where(array $conditions): int
+    {
+        $sql = "SELECT COUNT(*) FROM `$this->table` WHERE ";
+
+        $placeholders = [];
+        $values = [];
+
+        foreach ($conditions as $column => $value) {
+            $placeholders[] = "`{$column}` = ?";
+            $values[] = $value;
+        }
+
+        $sql .= implode(' AND ', $placeholders);
+
+        $result = $this->query($sql, $values);
+        if ($result === false)
+            return 0;
+
+        $result = $result->get_result();
+        if ($result === false)
+            return 0;
+
+        $row = $result->fetch_row();
+        return $row[0];
     }
 
     public function get_last_query(): string
