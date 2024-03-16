@@ -1,0 +1,708 @@
+
+[ERROR] 2024-03-16 12:01:43: 404 - Not Found
+		Request: /exam-2015-suppl/
+		Uri: https://localhost/exam-2015-suppl/
+
+[ERROR] 2024-03-16 12:02:53: 404 - Not Found
+		Request: /exam-2015-suppl/
+		Uri: https://localhost/exam-2015-suppl/
+
+[ERROR] 2024-03-16 12:02:57: 404 - Not Found
+		Request: /exam-2015-suppl/
+		Uri: https://localhost/exam-2015-suppl/
+
+[ERROR] 2024-03-16 12:03:00: 404 - Not Found
+		Request: /exam-2015-suppl/
+		Uri: https://localhost/exam-2015-suppl/
+
+[ERROR] 2024-03-16 12:03:12: 404 - Not Found
+		Request: /exam-2015-suppl/
+		Uri: https://localhost/exam-2015-suppl/
+
+[INFO] 2024-03-16 12:07:06: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 12:07:06: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-16 12:07:06: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:07:06: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 12:07:06: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-16 12:07:06: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:07:06: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[ERROR] 2024-03-16 12:07:06: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[ERROR] 2024-03-16 12:07:29: 404 - Not Found
+		Request: /exam-2015-suppl/
+		Uri: https://localhost/exam-2015-suppl/
+
+[INFO] 2024-03-16 12:07:44: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 12:07:44: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-16 12:07:44: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:07:44: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:07:52: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:07:52: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:07:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:07:53: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:07:54: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:07:54: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:08:24: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 12:08:24: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-16 12:08:24: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:08:24: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:08:32: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 12:08:32: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-16 12:08:32: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:08:32: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:08:36: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:08:36: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:09:11: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:09:11: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:09:13: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:09:13: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:12:06: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[ERROR] 2024-03-16 12:12:06: 404 - Not Found
+		Request: /node_modules/preline/dist/preline.js
+		Uri: http://localhost/node_modules/preline/dist/preline.js
+
+[INFO] 2024-03-16 12:14:53: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:14:55: serving '/auth?register'
+		Uri: http://localhost/auth?register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 12:14:57: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:14:58: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:14:58: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:14:58: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:14:59: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:14:59: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:15:00: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:15:02: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 12:15:03: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:15:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:15:14: serving '/auth?register'
+		Uri: http://localhost/auth?register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 12:15:15: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 12:24:03: serving '/auth?register'
+		Uri: http://localhost/auth?register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 12:24:29: serving '/tos'
+		Uri: http://localhost/tos
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'tos'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:24:35: serving '/auth/register'
+		Uri: http://localhost/auth/register
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 6
+[INFO] 2024-03-16 12:24:35: registered user: homura@akemi.com with id: 1
+[DEBUG] 2024-03-16 12:24:35: redirect
+		Header: 'HX-Redirect:'
+		Url: 'http://localhost/dashboard'
+
+[INFO] 2024-03-16 12:24:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:24:38: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:24:38: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:24:45: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:24:48: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[ERROR] 2024-03-16 12:24:52: 404 - Not Found
+		Request: /fuckyou
+		Uri: http://localhost/fuckyou
+
+[ERROR] 2024-03-16 12:25:27: 403 - Forbidden
+		Request: /
+		Uri: http://localhost/
+[16-Mar-2024 12:25:27 Europe/Berlin] PHP Warning:  Undefined array key "title" in C:\xampp_michelon\htdocs\exam-2015-suppl\lib\systems\views\View.php on line 99
+
+[INFO] 2024-03-16 12:25:38: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 12:25:38: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-16 12:25:38: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:25:42: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:25:42: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:25:44: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:25:47: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:25:47: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:25:48: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:25:49: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:32:46: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:32:46: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:32:49: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[ERROR] 2024-03-16 12:33:05: 404 - Not Found
+		Request: /meow
+		Uri: http://localhost/meow
+
+[INFO] 2024-03-16 12:33:08: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:33:09: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:41:32: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:41:32: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:41:33: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:42:04: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:42:04: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:43:06: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:43:06: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:56:29: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:56:29: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:56:30: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:56:53: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:56:53: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:56:54: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:56:55: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 12:56:55: serving '/partials/useredit/useredit'
+		Uri: http://localhost/partials/useredit/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:56:57: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:56:59: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:56:59: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:00: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:01: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:01: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:01: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:02: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:02: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:02: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:02: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:02: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:03: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:03: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:03: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:03: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 12:57:03: serving '/partials/useredit/upgradetoadmin'
+		Uri: http://localhost/partials/useredit/upgradetoadmin
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit_upgradetoadmin'
+		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php

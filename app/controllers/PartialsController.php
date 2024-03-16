@@ -27,4 +27,9 @@ class PartialsController extends Controller
     {
         view('pages/useredit/partials/upgradetoadmin');
     }
+
+    public function useredit_upgradegobackbutton()
+    {
+        return '<div>meow</div>';
+    }
 }

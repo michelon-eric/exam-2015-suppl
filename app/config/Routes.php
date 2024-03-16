@@ -9,6 +9,7 @@ $routes->get('/partials/auth/login', 'PartialsController::login');
 $routes->get('/partials/auth/register', 'PartialsController::register');
 $routes->get('/partials/useredit/useredit', 'PartialsController::useredit');
 $routes->get('/partials/useredit/upgradetoadmin', 'PartialsController::useredit_upgradetoadmin');
+$routes->get('/partials/useredit/upgradegobackbutton', 'PartialsController::useredit_upgradegobackbutton');
 
 $routes->get('/auth', 'IndexController::auth');
 $routes->post('/auth/register', 'auth\AuthController::register');
