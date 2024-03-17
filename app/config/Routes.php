@@ -7,9 +7,13 @@ $routes->get('/faq', 'IndexController::faq');
 
 $routes->get('/partials/auth/login', 'PartialsController::login');
 $routes->get('/partials/auth/register', 'PartialsController::register');
-$routes->get('/partials/useredit/useredit', 'PartialsController::useredit');
+
+$routes->get('/partials/useredit/usereditform', 'PartialsController::useredit');
 $routes->get('/partials/useredit/upgradetoadmin', 'PartialsController::useredit_upgradetoadmin');
 $routes->get('/partials/useredit/upgradegobackbutton', 'PartialsController::useredit_upgradegobackbutton');
+$routes->get('/partials/useredit/upgradetoadminbutton', 'PartialsController::useredit_upgradetoadminbutton');
+
+$routes->get('/partials/centres/all', 'PartialsController::centres_all');
 
 $routes->get('/auth', 'IndexController::auth');
 $routes->post('/auth/register', 'auth\AuthController::register');
@@ -21,5 +25,5 @@ $routes->post('/useredit', 'UserController::useredit');
 $routes->get('/dashboard', 'IndexController::dashboard');
 
 $routes->post('/centre/add', 'CentreController::add');
-$routes->get('/centres/dashboard', 'CentreController::dashboard');
+$routes->get('/centres', 'CentreController::index');
 $routes->get('/centres/centre/dashboard', 'CentreController::centre_dashboard');

@@ -8,6 +8,6 @@ $this->navbar_title = 'Register';
 
 <?= $this->section('content') ?>
 
-<?php $this->include('pages/auth/partials/register') ?>
+<?php $this->include('pages/auth/partials/register'); ?>
 
 <?= $this->end_section() ?>

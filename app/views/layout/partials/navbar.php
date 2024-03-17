@@ -14,13 +14,13 @@
                     </svg>
                 </button> -->
             </div>
-            <a class="flex-none text-xl font-semibold dark:text-white" aria-label="Brand"><?= $navbar_title ?? '' ?></a>
+            <a class="flex-none text-xl font-semibold dark:text-white" aria-label="Brand"> {{ $navbar_title ?? '' }} </a>
         </div>
         <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
             <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
                 <a class="font-semibold text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="<?= base_url() ?>dashboard">Dashboard</a>
-                <?php if (isset($role) && ($role === 'Moderator' || $role === 'Administrator' || $role === 'Root')): ?>
-                    <a class="font-semibold text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="<?= base_url() ?>centres/dashboard">Centres</a>
+                <?php if (isset ($role) && ($role === 'Moderator' || $role === 'Administrator' || $role === 'Root')): ?>
+                    <a class="font-semibold text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="<?= base_url() ?>centres">Centres</a>
                 <?php endif; ?>
                 <a class="font-semibold text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500" href="<?= base_url() ?>faq">Faq</a>
 

@@ -8,10 +8,8 @@ use App\Models\UserModel;
 use Lib\Database\Database;
 use Lib\Systems\Controllers\Controller;
 
-class IndexController extends Controller
-{
-    public function index()
-    {
+class IndexController extends Controller {
+    public function index() {
         // TODO: rember me
         if (!session()->is_set('user-id')) {
             session()->set('user-role', 'Unset');
@@ -20,8 +18,7 @@ class IndexController extends Controller
     }
 
     // TODO: delete old dashboard
-    public function old_dashboard()
-    {
+    public function old_dashboard() {
         $users_model = new UserModel();
         $user = $users_model->find(session()->get('user-id'));
         // TODO: redirect if not logged while accessing dashboard
@@ -67,23 +64,19 @@ class IndexController extends Controller
         view($view_str, ['centres' => $centres]);
     }
 
-    public function dashboard()
-    {
+    public function dashboard() {
         view('pages/dashboard', ['role' => session()->get('user-role')]);
     }
 
-    public function tos()
-    {
+    public function tos() {
         view('pages/tos', ['role' => session()->get('user-role')]);
     }
 
-    public function faq()
-    {
+    public function faq() {
         view('pages/faq', ['role' => session()->get('user-role')]);
     }
 
-    public function auth()
-    {
+    public function auth() {
         // due to permits either login|register|logout will be set when here
         if ($this->request->get_get('login') !== null) {
             view('pages/auth/login', ['role' => session()->get('user-role')]);
@@ -97,8 +90,7 @@ class IndexController extends Controller
         redirect('');
     }
 
-    public function useredit()
-    {
+    public function useredit() {
         view('pages/useredit/useredit', [
             'role' => session()->get('user-role'),
             'user' => (new UserModel())->find(session()->get('user-id')),

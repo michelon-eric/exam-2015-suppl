@@ -710,6 +710,9 @@ video {
 .h-2 {
   height: 0.5rem;
 }
+.h-96 {
+  height: 24rem;
+}
 .h-auto {
   height: auto;
 }

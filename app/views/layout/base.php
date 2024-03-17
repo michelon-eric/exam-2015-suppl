@@ -32,6 +32,9 @@ $this->role = session()->get('user-role');
     <!-- htmx -->
     <script src="<?= assets_path('js/htmx/htmx.min.js') ?>"></script>
 
+    <!-- hyperscript -->
+    <script src="<?= assets_path('js/_hyperscript/_hyperscript.min.js') ?>"></script>
+
     <!-- register methods -->
     <script type="module" src="<?= assets_path() ?>js/auth/register.js"></script>
     <script type="module" src="<?= assets_path() ?>js/auth/login.js"></script>
@@ -41,8 +44,8 @@ $this->role = session()->get('user-role');
     <?= $this->render_section('include') ?>
 </head>
 
-<body class="transition-colors duration-200 dark:bg-gray-950">
-    <?php if (isset($navbar)): ?>
+<body class="transition-colors duration-200 dark:bg-gray-950" hx-boost="true">
+    <?php if (isset ($navbar)): ?>
         <?= $this->include('layout/partials/navbar') ?>
     <?php endif; ?>
 

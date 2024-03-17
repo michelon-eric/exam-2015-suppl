@@ -1,21 +1,20 @@
 <?php
 
-/** @var \Lib\Systems\Views\View $this */
-$this->title = 'Edit Account Data';
-$this->navbar = true;
-$this->navbar_title = 'Edit Account Data';
-?>
+/** @var \Lib\Systems\Views\View $this */ ?>
 
-<?= $this->extend('layout/base') ?>
+@set(title, 'Edit Account Data')
+@set(navbar, true)
+@set(navbar_title, 'Edit Account Data')
 
-<?= $this->section('content') ?>
+@extend('layout/base')
 
+@section('content')
 <div class="relative">
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div class="grid items-center md:grid-cols-2 gap-8 lg:gap-12">
             <div>
                 <p class="inline-block text-sm font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
-                    <? //TODO: insert funny name of project                                                                                
+                    <? //TODO: insert funny name of project
                     ?>
                     Insert Funny Name Of Project
                 </p>
@@ -33,18 +32,12 @@ $this->navbar_title = 'Edit Account Data';
                     </p>
                 </div>
 
-                <?php if ($role !== 'Administrator' && $role !== 'Root') : ?>
-                    <div class="mt-4 md:mb-12 max-w-2xl">
-                        <button type="button" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" hx-get="<?= base_url() ?>partials/useredit/upgradetoadmin" hx-target="#form-content" hx-swap="innerHTML" hx-get:after="<?= base_url() ?>partials/useredit/upgradegobackbutton" hx-target:after="#upgrade-btn-htmx" hx-swap:after="outerHtml">
-                            Upgrade to Administrator
-                        </button>
-                        <div class="text-sm text-center text-gray-500">by upgrading to administrator you'll be able to manage your own centre</div>
-                    </div>
-                <?php endif; ?>
+                @if ($role !== 'Administrator' && $role !== 'Root')
+                <div hx-get="{{base_url()}}partials/useredit/upgradetoadminbutton" hx-trigger="load"></div>
+                @endif
             </div>
 
-            <div id="form-content" hx-get="<?= base_url() ?>partials/useredit/useredit" hx-trigger="load" hx-swap="innerHTML">
-
+            <div id="form-content" hx-get="{{base_url()}}partials/useredit/usereditform" hx-trigger="load" hx-swap="innerHTML">
             </div>
         </div>
     </div>
@@ -83,5 +76,4 @@ $this->navbar_title = 'Edit Account Data';
         </div>
     </div>
 </div>
-
-<?= $this->end_section() ?>
+@endsection

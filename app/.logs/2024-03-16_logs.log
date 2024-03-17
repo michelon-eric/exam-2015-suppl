@@ -706,3 +706,2807 @@
 		Controller: 'App\Controllers\PartialsController'
 		Controller-Method: 'useredit_upgradetoadmin'
 		File: file:///C:\xampp_michelon\htdocs\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 19:48:01: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 19:48:01: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-16 19:48:01: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 19:48:03: serving '/auth?register'
+		Uri: http://localhost/auth?register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 19:48:05: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+[16-Mar-2024 21:09:19 Europe/Berlin] PHP Warning:  Undefined variable $routes in C:\xampp\htdocs\school\exam-2015-suppl\app\config\Routes.php on line 3
+[16-Mar-2024 21:09:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in C:\xampp\htdocs\school\exam-2015-suppl\app\config\Routes.php:3
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(37): include()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(49): App->update_routes()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(23): App->init()
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(24): App::get_instance()
+#4 {main}
+  thrown in C:\xampp\htdocs\school\exam-2015-suppl\app\config\Routes.php on line 3
+
+[INFO] 2024-03-16 21:09:45: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 21:09:47: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 21:09:48: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 21:44:01: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 21:44:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 21:44:05: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 21:44:12: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+
+[INFO] 2024-03-16 21:44:14: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+
+[INFO] 2024-03-16 21:44:17: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 21:44:19: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+
+[INFO] 2024-03-16 21:44:30: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+
+[INFO] 2024-03-16 21:44:37: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+
+[INFO] 2024-03-16 21:45:01: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-16 21:45:14: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 3
+
+[INFO] 2024-03-16 21:45:54: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 21:45:56: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-16 21:49:19: serving '/partials/auth/register'
+		Uri: http://localhost/partials/auth/register
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'register'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 21:49:23: serving '/partials/auth/login'
+		Uri: http://localhost/partials/auth/login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-16 21:50:44: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-16 21:51:09: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+[DEBUG] 2024-03-16 21:51:09: meow
+
+[INFO] 2024-03-16 21:51:21: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-16 21:51:29: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-16 21:51:36: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+
+[INFO] 2024-03-16 21:51:42: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+[DEBUG] 2024-03-16 21:51:42: meow
+
+[INFO] 2024-03-16 21:52:23: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+[ERROR] 2024-03-16 21:52:23: mysqli_sql_exception: Table 'exam_2015_suppl.users' doesn't exist in engine in C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php:33
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php(33): mysqli->prepare('SELECT * FROM `...')
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\models\Model.php(48): Lib\Database\Database::query('SELECT * FROM `...', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\models\Model.php(91): Lib\Systems\Models\Model->query('SELECT * FROM `...', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php(110): Lib\Systems\Models\Model->select_where_first(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\Auth\AuthController->login(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 22:07:48: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 22:07:50: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:07:51: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:07:51: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:08:52: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:16:32: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:16:32: ParseError: syntax error, unexpected token "endfor", expecting end of file in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(69) : eval()'d code:18
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 22:16:39: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:16:39: Error: Call to undefined method Lib\Systems\Views\View::start_section() in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(69) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(69): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 22:17:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:19:52: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:19:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:19:55: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:19:55: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:19:56: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:20:03: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:21:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:21:35: Error: Undefined constant "layout" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(72) : eval()'d code:9
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(72): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 22:24:23: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:24:33: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:24:41: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:24:41: ParseError: syntax error, unexpected token "{" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(75) : eval()'d code:14
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 22:24:57: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:24:57: ParseError: syntax error, unexpected token "{" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(75) : eval()'d code:14
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 22:25:20: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:37:18: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:37:19: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:37:24: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:37:29: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:37:31: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:37:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:37:42: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:39:27: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:39:27: ParseError: syntax error, unexpected identifier "title", expecting "]" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(75) : eval()'d code:10
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 22:39:38: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:39:52: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:40:11: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:40:16: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:40:19: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:40:23: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:41:03: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:41:16: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:41:16: ParseError: syntax error, unexpected token "!" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(75) : eval()'d code:5
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 22:41:36: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:41:46: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:43:16: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:43:16: Error: Undefined constant "title" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(88) : eval()'d code:3
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(88): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 22:44:17: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:44:17: Error: Undefined constant "title" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(88) : eval()'d code:3
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(88): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 22:44:34: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:44:34: Error: Undefined constant "title" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(80) : eval()'d code:3
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(80): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 22:45:44: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:45:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:46:00: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:46:03: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:46:03: ParseError: syntax error, unexpected token "endfor", expecting end of file in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(75) : eval()'d code:12
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 22:46:07: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:46:33: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:47:34: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 22:47:34: ParseError: syntax error, unexpected token "endfor", expecting end of file in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(75) : eval()'d code:12
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(88): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 22:47:39: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:48:39: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:48:56: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:49:05: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:49:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:49:19: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:49:54: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:50:13: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:50:16: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:51:13: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:52:21: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 22:54:21: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:02:50: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:02:50: Exception: meow meow in C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php:86
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#1 {main}
+
+[INFO] 2024-03-16 23:02:53: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:02:53: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-16 23:02:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:02:53: Exception: meow meow in C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php:86
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#1 {main}
+
+[INFO] 2024-03-16 23:02:58: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:02:58: Exception: meow meow in C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php:85
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#1 {main}
+
+[INFO] 2024-03-16 23:05:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:05:02: Exception: meow meow in C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php:87
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#1 {main}
+
+[INFO] 2024-03-16 23:05:13: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:05:13: Exception: meow meow in C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php:87
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#1 {main}
+
+[INFO] 2024-03-16 23:05:54: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:05:56: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:05:56: serving '/faq'
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:05:59: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 23:06:05: serving '/auth/login'
+		Uri: http://localhost/auth/login
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\auth\AuthController'
+		Controller-Method: 'login'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php
+		Post-Params-Count 2
+[ERROR] 2024-03-16 23:06:05: mysqli_sql_exception: Table 'exam_2015_suppl.users' doesn't exist in engine in C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php:33
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\database\Database.php(33): mysqli->prepare('SELECT * FROM `...')
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\models\Model.php(48): Lib\Database\Database::query('SELECT * FROM `...', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\models\Model.php(91): Lib\Systems\Models\Model->query('SELECT * FROM `...', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\auth\AuthController.php(110): Lib\Systems\Models\Model->select_where_first(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\Auth\AuthController->login(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 23:07:47: serving '/auth?login'
+		Uri: http://localhost/auth?login
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'auth'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+		Get-Params-Count 1
+
+[INFO] 2024-03-16 23:07:49: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:11:52: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:11:58: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:12:16: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:13:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:13:08: Error: Undefined constant "uppercase" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(96) : eval()'d code:12
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(96): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:13:10: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:13:29: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:13:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:13:39: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:14:25: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:14:32: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:14:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:14:35: Error: Undefined constant "lowercase" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(94) : eval()'d code:12
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(94): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:15:40: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:16:19: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:16:25: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:16:40: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:16:40: Exception: Unknown filter: 'lowercase' in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php:87
+Stack trace:
+#0 [internal function]: Lib\Systems\Views\View->Lib\Systems\Views\{closure}(Array)
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(82): preg_replace_callback('/{{\\s*\\$this->(...', Object(Closure), '<?php\r\n\r\n/** @v...')
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 23:16:55: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:16:55: Exception: Unknown filter: 'lowercase' in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php:72
+Stack trace:
+#0 [internal function]: Lib\Systems\Views\View->Lib\Systems\Views\{closure}(Array)
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(67): preg_replace_callback('/{{\\s*\\$this->(...', Object(Closure), '<?php\r\n\r\n/** @v...')
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 23:17:04: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:17:04: lowercase title = 
+
+[INFO] 2024-03-16 23:17:34: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:18:37: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:18:50: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:19:10: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:19:10: Lib\Systems\Views\View Object
+(
+    [data:protected] => Array
+        (
+            [role] => Unset
+        )
+
+    [name:protected] => pages/dashboard
+    [sections:protected] => Array
+        (
+        )
+
+    [section_stack:protected] => Array
+        (
+        )
+
+    [filters:protected] => Array
+        (
+            [uppercase] => strtoupper
+            [lowercase] => strtolower
+        )
+
+)
+
+
+[INFO] 2024-03-16 23:19:32: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:19:32: Array
+(
+    [0] => title
+    [1] => lowercase
+)
+
+
+[INFO] 2024-03-16 23:20:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:20:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:20:15: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:20:15: Exception: Unknown filter: lowercase | uppercase in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php:72
+Stack trace:
+#0 [internal function]: Lib\Systems\Views\View->Lib\Systems\Views\{closure}(Array)
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(67): preg_replace_callback('/{{(.*?)\\|(.*?)...', Object(Closure), '<?php\r\n\r\n/** @v...')
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 23:20:18: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:23:40: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:23:51: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:23:59: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:24:10: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:24:10: ParseError: syntax error, unexpected token "<" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(104) : eval()'d code:13
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:24:20: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:24:20: Exception: Unknown filter: decrypt, lowercase in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php:82
+Stack trace:
+#0 [internal function]: Lib\Systems\Views\View->Lib\Systems\Views\{closure}(Array)
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(77): preg_replace_callback('/{{(.*?)\\|(.*?)...', Object(Closure), '<?php\r\n\r\n/** @v...')
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 23:24:25: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:24:25: Exception: Unknown filter: decrypt | lowercase in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php:82
+Stack trace:
+#0 [internal function]: Lib\Systems\Views\View->Lib\Systems\Views\{closure}(Array)
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(77): preg_replace_callback('/{{(.*?)\\|(.*?)...', Object(Closure), '<?php\r\n\r\n/** @v...')
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 23:24:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:24:33: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:24:36: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:25:40: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:25:40: Exception: Unknown filter:  in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php:84
+Stack trace:
+#0 [internal function]: Lib\Systems\Views\View->Lib\Systems\Views\{closure}(Array)
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(77): preg_replace_callback('/{{(.*?)\\|(.*?)...', Object(Closure), '<?php\r\n\r\n/** @v...')
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 23:25:43: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:25:43: Exception: Unknown filter:  in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php:84
+Stack trace:
+#0 [internal function]: Lib\Systems\Views\View->Lib\Systems\Views\{closure}(Array)
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(77): preg_replace_callback('/{{(.*?)\\|(.*?)...', Object(Closure), '<?php\r\n\r\n/** @v...')
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 23:26:18: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:26:24: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:26:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:26:33: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:26:36: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:26:39: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:26:47: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:26:52: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:26:55: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:27:11: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:27:13: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:27:16: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:29:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:29:36: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:29:36: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:29:44: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:29:59: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:30:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:30:15: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:30:39: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:30:39: $this->title
+
+[INFO] 2024-03-16 23:30:50: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:30:50: ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(113) : eval()'d code:1
+Stack trace:
+#0 [internal function]: Lib\Systems\Views\View->Lib\Systems\Views\{closure}(Array)
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(111): preg_replace_callback('/@dump\\((.*?)\\)...', Object(Closure), '<?php\r\n\r\n/** @v...')
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#3 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#5 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#6 {main}
+
+[INFO] 2024-03-16 23:30:59: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:31:11: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:31:13: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:31:24: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:31:29: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:31:38: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:31:46: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:31:46: Error: Undefined constant "this" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(129) : eval()'d code:14
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(129): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:31:50: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:31:50: ParseError: syntax error, unexpected token ";" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(129) : eval()'d code:23
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:31:56: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:32:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:32:08: ParseError: syntax error, unexpected token "echo" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(129) : eval()'d code:15
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:33:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:33:02: ParseError: syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(130) : eval()'d code:14
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:33:06: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:33:06: ParseError: syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(130) : eval()'d code:14
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:33:46: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:34:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:34:28: ParseError: syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(130) : eval()'d code:14
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:36:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:36:34: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:36:37: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:37:17: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:37:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:37:34: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:37:40: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:37:40: ParseError: syntax error, unexpected integer "1", expecting identifier or variable or "{" or "$" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:15
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:37:48: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:38:33: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:38:38: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:38:43: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:38:44: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:38:46: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:38:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:38:54: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:38:54: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:39:55: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:39:56: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:39:57: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:39:57: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:40:07: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:40:10: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:40:20: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:40:36: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:40:39: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:40:49: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:41:33: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:41:33: Error: Cannot use object of type Lib\Systems\Views\View as array in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:15
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:41:34: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:41:34: Error: Cannot use object of type Lib\Systems\Views\View as array in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:15
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:41:41: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:41:52: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:41:56: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:42:28: Error: Undefined constant "meow" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:13
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:42:31: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:42:31: Error: Object of class Lib\Systems\Views\View could not be converted to string in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:13
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:42:32: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:42:32: Error: Object of class Lib\Systems\Views\View could not be converted to string in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:13
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:42:36: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:43: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:48: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:50: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:51: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:51: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:52: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:52: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:52: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:54: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:54: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:54: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:58: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:58: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:59: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:59: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:59: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:42:59: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:00: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:00: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:00: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:01: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:01: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:03: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:03: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:04: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:04: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:04: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:05: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:05: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:06: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:06: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:06: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:07: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:07: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:07: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:08: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:09: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:09: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:09: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:10: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:10: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:10: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:11: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:11: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:12: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:12: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:17: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:17: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:21: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:21: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:22: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:26: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:36: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:44: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:44: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:51: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:43:56: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:44:03: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:45:56: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:45:56: ParseError: syntax error, unexpected token "{" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:46:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:46:02: ParseError: syntax error, unexpected token "{" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:46:31: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:46:31: ParseError: syntax error, unexpected token "<" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:46:33: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:46:33: ParseError: syntax error, unexpected token "<" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:46:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:46:35: ParseError: syntax error, unexpected token "{" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:46:44: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:46:44: ParseError: syntax error, unexpected token "{" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:46:58: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:46:58: ParseError: syntax error, unexpected token "<" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:47:10: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:47:14: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:47:19: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:47:22: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:48:09: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:48:14: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:49:53: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:49:59: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:50:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:52:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:52:02: Error: Undefined constant "i" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(155) : eval()'d code:16
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(155): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:52:14: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:52:14: Error: Undefined constant "i" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(155) : eval()'d code:16
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(155): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:52:20: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:52:20: Error: Undefined constant "i" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(155) : eval()'d code:16
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(155): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:52:27: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:53:02: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:53:02: ParseError: syntax error, unexpected token "=" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:3
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:53:15: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:53:15: ParseError: syntax error, unexpected token "=" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(145) : eval()'d code:3
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:53:25: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:54:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:54:28: Error: Undefined constant "i" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(158) : eval()'d code:16
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(158): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:54:34: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:54:34: Error: Undefined constant "i" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(158) : eval()'d code:16
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(158): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:55:41: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:55:41: Error: Undefined constant "i" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(158) : eval()'d code:16
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(158): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:56:20: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:56:20: Error: Undefined constant "i" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(161) : eval()'d code:16
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(161): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:56:20: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:56:20: Error: Undefined constant "i" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(161) : eval()'d code:16
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(161): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:56:21: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:56:21: Error: Undefined constant "i" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(161) : eval()'d code:16
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(161): eval()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#2 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#4 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#5 {main}
+
+[INFO] 2024-03-16 23:56:28: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-16 23:57:43: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[ERROR] 2024-03-16 23:57:43: ParseError: syntax error, unexpected identifier "user", expecting "]" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(153) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+
+[INFO] 2024-03-16 23:57:58: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:57:58: session()->get('user-role')
+[DEBUG] 2024-03-16 23:57:58: $i
+[ERROR] 2024-03-16 23:57:58: ParseError: syntax error, unexpected identifier "user", expecting "]" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(155) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+[DEBUG] 2024-03-16 23:57:58: $error->getCode()
+[DEBUG] 2024-03-16 23:57:58: $error->getMessage()
+[DEBUG] 2024-03-16 23:57:58: $error->getFile()
+[DEBUG] 2024-03-16 23:57:58: $error->getFile()
+[DEBUG] 2024-03-16 23:57:58: base_url()
+
+[INFO] 2024-03-16 23:58:25: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:58:25: session()->get('user-role')
+[DEBUG] 2024-03-16 23:58:25: new = $this->data['session()->get('user-role')']
+[DEBUG] 2024-03-16 23:58:25: $i
+[ERROR] 2024-03-16 23:58:25: ParseError: syntax error, unexpected identifier "user", expecting "]" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(156) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+[DEBUG] 2024-03-16 23:58:25: $error->getCode()
+[DEBUG] 2024-03-16 23:58:25: $error->getMessage()
+[DEBUG] 2024-03-16 23:58:25: $error->getFile()
+[DEBUG] 2024-03-16 23:58:25: $error->getFile()
+[DEBUG] 2024-03-16 23:58:25: base_url()
+[DEBUG] 2024-03-16 23:58:25: new = $this->data['base_url()']
+
+[INFO] 2024-03-16 23:59:16: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:59:16: session()->get('user-role')
+[DEBUG] 2024-03-16 23:59:16: new = $this->data['session()->get('user-role')']
+[DEBUG] 2024-03-16 23:59:16: $i
+[ERROR] 2024-03-16 23:59:16: ParseError: syntax error, unexpected identifier "user", expecting "]" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(156) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+[DEBUG] 2024-03-16 23:59:16: $error->getCode()
+[DEBUG] 2024-03-16 23:59:16: $error->getMessage()
+[DEBUG] 2024-03-16 23:59:16: $error->getFile()
+[DEBUG] 2024-03-16 23:59:16: $error->getFile()
+[DEBUG] 2024-03-16 23:59:16: base_url()
+[DEBUG] 2024-03-16 23:59:16: new = $this->data['base_url()']
+
+[INFO] 2024-03-16 23:59:35: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:59:35: session()->get('user-role') found function = 
+[DEBUG] 2024-03-16 23:59:35: new = $this->data['session()->get('user-role')']
+[DEBUG] 2024-03-16 23:59:35: $i found function = 
+[ERROR] 2024-03-16 23:59:35: ParseError: syntax error, unexpected identifier "user", expecting "]" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(156) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+[DEBUG] 2024-03-16 23:59:35: $error->getCode() found function = 
+[DEBUG] 2024-03-16 23:59:35: $error->getMessage() found function = 
+[DEBUG] 2024-03-16 23:59:35: $error->getFile() found function = 
+[DEBUG] 2024-03-16 23:59:35: $error->getFile() found function = 
+[DEBUG] 2024-03-16 23:59:35: base_url() found function = 
+[DEBUG] 2024-03-16 23:59:35: new = $this->data['base_url()']
+
+[INFO] 2024-03-16 23:59:51: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-16 23:59:51: session()->get('user-role') found function = no
+[DEBUG] 2024-03-16 23:59:51: new = $this->data['session()->get('user-role')']
+[DEBUG] 2024-03-16 23:59:51: $i found function = no
+[ERROR] 2024-03-16 23:59:51: ParseError: syntax error, unexpected identifier "user", expecting "]" in C:\xampp\htdocs\school\exam-2015-suppl\lib\systems\views\View.php(156) : eval()'d code:11
+Stack trace:
+#0 C:\xampp\htdocs\school\exam-2015-suppl\lib\common.php(15): Lib\Systems\Views\View->render()
+#1 C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php(72): view('pages/dashboard', Array)
+#2 C:\xampp\htdocs\school\exam-2015-suppl\lib\App.php(87): App\Controllers\IndexController->dashboard(Array)
+#3 C:\xampp\htdocs\school\exam-2015-suppl\index.php(34): Lib\App->run()
+#4 {main}
+[DEBUG] 2024-03-16 23:59:51: $error->getCode() found function = no
+[DEBUG] 2024-03-16 23:59:51: $error->getMessage() found function = no
+[DEBUG] 2024-03-16 23:59:51: $error->getFile() found function = no
+[DEBUG] 2024-03-16 23:59:51: $error->getFile() found function = no
+[DEBUG] 2024-03-16 23:59:51: base_url() found function = no
+[DEBUG] 2024-03-16 23:59:51: new = $this->data['base_url()']

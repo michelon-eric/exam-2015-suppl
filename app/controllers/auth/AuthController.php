@@ -107,7 +107,6 @@ class AuthController extends Controller
         $rember_me = $this->request->get_post('remember-me') === 'true';
 
         $user_model = new UserModel();
-
         $user = $user_model->select_where_first(['USR_Email' => $email]);
 
         if ($user === false || $user === null) {

@@ -11,6 +11,7 @@ actually you know what this is going well I'm happy &lt;-- not in touch with the
 -   htmx
 -   tailwind
 -   preline
+-   hyperscript
 
 ---
 

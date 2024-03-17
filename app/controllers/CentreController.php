@@ -7,45 +7,64 @@ use App\Models\ResourceModel;
 use App\Models\UserRoleModel;
 use Lib\Systems\Controllers\Controller;
 
-class CentreController extends Controller
-{
-    public function add()
-    {
+class CentreController extends Controller {
+    public function add() {
         $name = $this->request->get_post('centre-name');
         $address = $this->request->get_post('centre-address');
         $city = $this->request->get_post('centre-city');
         $zip = $this->request->get_post('centre-zip');
         $phone = $this->request->get_post('centre-phone');
+        $email = $this->request->get_post('centre-email');
+
+        $centre_data = [];
 
         if ($name === '') {
             return json_encode(['fail' => 'name']);
         }
 
+        $centre_data['CTR_Name'] = $name;
+
         if ($city === '') {
             return json_encode(['fail' => 'city']);
         }
+        $centre_data['CTR_City'] = $city;
 
         if ($address === '') {
             return json_encode(['fail' => 'address']);
         }
+        $centre_data['CTR_Address'] = $address;
 
         // phone is not required
         if ($phone !== '' && !validate_phone($phone)) {
             return json_encode(['fail' => 'phone']);
         }
 
+        if ($phone !== '') {
+            if (!validate_phone($phone)) {
+                return json_encode(['fail' => 'phone']);
+            }
+
+            $centre_data['CTR_Phone'] = $phone;
+        }
+
+        if ($email !== '') {
+            $centre_data['CTR_Email'] = $email;
+            if (!validate_email($email)) {
+                return json_encode(['fail' => 'email']);
+            }
+
+            $centre_data['CTR_Email'] = $email;
+        }
+
         if (!validate_zip($zip)) {
             return json_encode(['fail' => 'zip']);
         }
+        $centre_data['CTR_PostalCode'] = $zip;
+
 
         $centre_model = new CentreModel();
-        $insert_id = $centre_model->insert([
-            'CTR_Name' => $name,
-            'CTR_Address' => $address,
-            'CTR_City' => $city,
-            'CTR_PostalCode' => $zip,
-            'CTR_Phone' => $phone,
-        ]);
+
+        $insert_id = $centre_model->insert($centre_data);
 
         $userrole_model = new UserRoleModel();
         $admin_id = $userrole_model->insert([
@@ -59,42 +78,15 @@ class CentreController extends Controller
 
         log_info('created user-role for user ' . session()->get('user-id') . " as 'Administrator'");
 
-        redirect('centre/dashboard', ['centre-id' => $insert_id]);
-
-        // return json_encode(['success' => 'yay']);
+        session()->set('current-centre-id', $insert_id);
+        redirect('centres');
     }
 
-    public function dashboard()
-    {
-        $centre_model = new CentreModel();
-        $role_model = new UserRoleModel();
-        $resources_model = new ResourceModel();
-        $user_id = session()->get('user-id');
-        $centres = $centre_model
-            ->query("SELECT * FROM `" . $centre_model->get_table() . "` JOIN `" . $role_model->get_table() . "` ON `ROL_IdUser` = $user_id", [])
-            ->get_result()
-            ->fetch_all(MYSQLI_ASSOC);
-
-        $centres = array_map(function ($centre) use ($resources_model, $role_model, $user_id) {
-            $centre_id = $centre['CTR_Id'];
-
-            // i don't liek joins
-            $centre['CTR_TotalResourcesCount'] = $resources_model->select_count_where(['RES_IdCentre' => $centre_id]);
-            $centre['CTR_BookedResourcesCount'] = $resources_model->select_count_where(['RES_IdCentre' => $centre_id, 'RES_Status' => 'Booked']);
-            $centre['CTR_BrokenResourcesCount'] = $resources_model->select_count_where(['RES_IdCentre' => $centre_id, 'RES_Status' => 'Broken']);
-            $centre['CTR_CustomersCount'] = 0;
-
-            $centre['CTR_ModeratorsCount'] = $role_model->query("SELECT COUNT(*) as ModCount FROM `" . $role_model->get_table() . "` WHERE `ROL_IdCentre` = $centre_id AND `ROL_IdUser` = $user_id AND NOT `ROL_Role` = 'Regular'", [])->get_result()->fetch_assoc()['ModCount'];
-            return $centre;
-        }, $centres);
-
-        view('pages/centre/dashboard', [
-            'centres' => $centres,
-        ]);
+    public function index() {
+        view('pages/centres/index');
     }
 
-    public function centre_dashboard()
-    {
+    public function centre_dashboard() {
         $centre_id = decrypt($this->request->get_get('centre'));
         echo $centre_id;
     }

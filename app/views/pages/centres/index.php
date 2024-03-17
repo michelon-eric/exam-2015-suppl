@@ -1,13 +1,13 @@
 <?php /** @var Lib\Systems\Views\View $this */
-$this->navbar = true;
-$this->title = 'Dashboard';
-$this->navbar_title = 'Manage '/* your centres */ ;
 ?>
 
-<?= $this->extend('layout/base') ?>
+@set(title, 'Dashboard')
+@set(navbar, true)
+@set(navbar_title, 'Manage')
 
-<?= $this->section('content') ?>
+@extend('layout/base')
 
+@section('content')
 <div class="max-w-full w-full px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <div class="flex flex-col">
         <div class="-m-1.5 overflow-x-auto">
@@ -92,70 +92,8 @@ $this->navbar_title = 'Manage '/* your centres */ ;
                             </tr>
                         </thead>
 
-                        <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
-                            <?php foreach ($centres as $key => $centre): ?>
-                                <tr>
-                                    <td class="size-px whitespace-nowrap"></td>
-                                    <td class="size-px whitespace-nowrap">
-                                        <div class="px-6 py-2">
-                                            <a class="text-sm text-blue-600 decoration-2 hover:underline dark:text-blue-500" href="#"><?= $centre['CTR_Name'] ?></a>
-                                        </div>
-                                    </td>
-
-                                    <td class="size-px whitespace-nowrap">
-                                        <div class="px-6 py-2">
-                                            <span class="text-sm text-gray-600 dark:text-gray-400"><?= $centre['CTR_TotalResourcesCount'] ?></span>
-                                        </div>
-                                    </td>
-
-                                    <td class="size-px whitespace-nowrap">
-                                        <div class="px-6 py-2">
-                                            <span class="text-sm text-gray-600 dark:text-gray-400"><?= $centre['CTR_BookedResourcesCount'] ?></span>
-                                        </div>
-                                    </td>
-
-                                    <td class="size-px whitespace-nowrap">
-                                        <div class="px-6 py-2">
-                                            <span class="text-sm text-gray-600 dark:text-gray-400"><?= $centre['CTR_BrokenResourcesCount'] ?></span>
-                                        </div>
-                                    </td>
-
-                                    <td class="size-px whitespace-nowrap">
-                                        <div class="px-6 py-2">
-                                            <span class="text-sm text-gray-600 dark:text-gray-400"><?= $centre['CTR_CustomersCount'] ?></span>
-                                        </div>
-                                    </td>
-
-                                    <td class="size-px whitespace-nowrap">
-                                        <div class="px-6 py-2">
-                                            <span class="text-sm text-gray-600 dark:text-gray-400"><?= $centre['CTR_ModeratorsCount'] ?></span>
-                                        </div>
-                                    </td>
-
-                                    <td class="size-px whitespace-nowrap text-start">
-                                        <div class="px-6 py-2">
-                                            <?php $role = $centre['ROL_Role']; ?>
-                                            <?php if ($role === 'Administrator' || $role === 'Root'): ?>
-                                                <button type="button" class="min-w-20 max-w-20 w-20 py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-green-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-green-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-green-600">
-                                                    <a class="max-w-full w-full text-center" hx-get="<?= base_url() ?>centres/centre/dashboard" hx-vals='{"centre": "<?= encrypt($centre['CTR_Id']) ?>"}'>Manage</a>
-                                                </button>
-                                                <button type="button" class="min-w-20 max-w-20 w-20 py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-red-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-red-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-red-600">
-                                                    <a class="max-w-full w-full text-center" href="#">Delete</a>
-                                                </button>
-                                            <?php elseif ($role === 'Moderator'): ?>
-                                                <button type="button" class="min-w-20 max-w-20 w-20 py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-green-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-green-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-green-600">
-                                                    <a class="max-w-full w-full text-center" href="#">Manage</a>
-                                                </button>
-                                            <?php endif; ?>
-                                        </div>
-                                    </td>
-
-                                    <td class="size-px whitespace-nowrap">
-                                        <div class="px-6 py-2">
-                                        </div>
-                                    </td>
-                                </tr>
-                            <?php endforeach; ?>
+                        <div hx-get="{{base_url()}}partials/centres/all" hx-trigger="load, every 10s" hx-target="#table-body" hx-swap="innerHTML"></div>
+                        <tbody class="divide-y divide-gray-200 dark:divide-gray-700" id="table-body">
                         </tbody>
                     </table>
                 </div>
@@ -164,6 +102,4 @@ $this->navbar_title = 'Manage '/* your centres */ ;
     </div>
 </div>
 
-
-
-<?= $this->end_section() ?>
+@endsection
