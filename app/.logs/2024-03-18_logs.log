@@ -1,0 +1,1038 @@
+
+[INFO] 2024-03-18 16:13:47: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:16:50: serving '/useredit'
+		HTMX-Request
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:17:12: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:17:12: serving '/useredit'
+		HTMX-Request
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:17:15: serving '/dashboard'
+		HTMX-Request
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:17:18: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:18:24: serving '/useredit'
+		HTMX-Request
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:18:27: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:18:29: serving '/useredit'
+		HTMX-Request
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:18:36: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:18:36: serving '/useredit'
+		HTMX-Request
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:19:32: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:19:36: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:19:56: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-18 16:19:56: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-18 16:19:56: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:20:00: serving '/'
+		Uri: http://localhost/
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+[DEBUG] 2024-03-18 16:20:00: redirect
+		Header: 'Location:'
+		Url: '/dashboard'
+
+[INFO] 2024-03-18 16:20:00: serving '/dashboard'
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:20:03: serving '/useredit'
+		HTMX-Request
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:20:03: serving '/partials/useredit/usereditform'
+		HTMX-Request
+		Uri: http://localhost/partials/useredit/usereditform
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 16:20:05: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:20:06: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 16:20:07: serving '/centres/centre?centre=WTBYOWFQUEcyOWJadGR2M1ZHTGkrdz09OjopzmxrPmYmCQVH%2FS%2BKtff9'
+		HTMX-Request
+		Uri: http://localhost/centres/centre?centre=WTBYOWFQUEcyOWJadGR2M1ZHTGkrdz09OjopzmxrPmYmCQVH%2FS%2BKtff9
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+[DEBUG] 2024-03-18 16:20:07: redirect
+		Header: 'HX-Redirect:'
+		Url: 'http://localhost/centres/centre/dashboard'
+
+[INFO] 2024-03-18 16:20:07: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:20:11: serving '/useredit'
+		HTMX-Request
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:20:11: serving '/partials/useredit/usereditform'
+		HTMX-Request
+		Uri: http://localhost/partials/useredit/usereditform
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 16:23:09: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:23:09: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 16:23:12: serving '/centres/centre?centre=SVVVMW1Cd0REbUpRa3d4a1oxeXpPUT09OjqUACAmySsrnijlGH5NHCO0'
+		HTMX-Request
+		Uri: http://localhost/centres/centre?centre=SVVVMW1Cd0REbUpRa3d4a1oxeXpPUT09OjqUACAmySsrnijlGH5NHCO0
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+[DEBUG] 2024-03-18 16:23:12: redirect
+		Header: 'HX-Redirect:'
+		Url: 'http://localhost/centres/centre/dashboard'
+
+[INFO] 2024-03-18 16:23:12: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:24:24: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:24:55: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:25:25: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:26:25: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:26:37: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:26:44: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:26:45: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:26:46: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:26:54: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:35:12: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:35:31: serving '/useredit'
+		Uri: http://localhost/useredit
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 16:35:31: serving '/partials/useredit/usereditform'
+		HTMX-Request
+		Uri: http://localhost/partials/useredit/usereditform
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'useredit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 16:35:53: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:36:20: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:36:21: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:36:25: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:36:32: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:36:36: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:37:04: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:38:30: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:40:29: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:41:05: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:41:37: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:42:24: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:42:30: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:42:40: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:42:42: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:42:43: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:42:43: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:42:56: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 16:43:13: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:46:35: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:46:59: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:47:40: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:47:42: serving '/centre/add'
+		HTMX-Request
+		Uri: http://localhost/centre/add
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'add'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+[INFO] 2024-03-18 20:47:42: created user-role for user 1 as 'Administrator'
+[DEBUG] 2024-03-18 20:47:42: redirect
+		Header: 'HX-Redirect:'
+		Url: 'http://localhost/centres'
+
+[INFO] 2024-03-18 20:47:42: serving '/centres'
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:47:42: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 20:47:53: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 20:47:58: serving '/centres'
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:47:58: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 20:47:58: serving '/centres'
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:47:59: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 20:47:59: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:47:59: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 20:48:02: serving '/centres/centre?centre=a3FNQm1QeW9hMVhRd2ExdjkzanNaZz09Ojp732N2H0zsEKstkuKVFN68'
+		HTMX-Request
+		Uri: http://localhost/centres/centre?centre=a3FNQm1QeW9hMVhRd2ExdjkzanNaZz09Ojp732N2H0zsEKstkuKVFN68
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+[DEBUG] 2024-03-18 20:48:02: redirect
+		Header: 'HX-Redirect:'
+		Url: 'http://localhost/centres/centre/dashboard'
+
+[INFO] 2024-03-18 20:48:02: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:48:48: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:48:48: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 20:48:58: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 20:49:02: serving '/centres/centre?centre=M3M3d1FjZG4zSldRdVZEOEhmNzdRdz09Ojrxz6boouVSTgdlGNPq5DnZ'
+		HTMX-Request
+		Uri: http://localhost/centres/centre?centre=M3M3d1FjZG4zSldRdVZEOEhmNzdRdz09Ojrxz6boouVSTgdlGNPq5DnZ
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+[DEBUG] 2024-03-18 20:49:02: redirect
+		Header: 'HX-Redirect:'
+		Url: 'http://localhost/centres/centre/dashboard'
+
+[INFO] 2024-03-18 20:49:02: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:59:06: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:59:08: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 20:59:44: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:59:45: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 20:59:52: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 20:59:53: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:00:03: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:01:23: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:01:25: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:01:32: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:01:54: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:02:10: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:02:12: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:02:14: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:02:17: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:02:19: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:02:23: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:02:34: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:02:35: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:04:36: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:04:38: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:04:45: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:04:46: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:04:48: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:04:50: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:04:52: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6
+
+[INFO] 2024-03-18 21:24:00: serving '/dashboard'
+		HTMX-Request
+		Uri: http://localhost/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 21:24:02: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:02: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 21:24:03: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:03: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 21:24:04: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:04: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 21:24:04: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:05: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 21:24:06: serving '/faq'
+		HTMX-Request
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 21:24:06: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:06: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 21:24:07: serving '/faq'
+		HTMX-Request
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 21:24:07: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:08: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 21:24:08: serving '/faq'
+		HTMX-Request
+		Uri: http://localhost/faq
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\IndexController'
+		Controller-Method: 'faq'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\IndexController.php
+
+[INFO] 2024-03-18 21:24:09: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:09: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 21:24:10: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:11: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 21:24:12: serving '/centres'
+		HTMX-Request
+		Uri: http://localhost/centres
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'index'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:13: serving '/partials/centres/all'
+		HTMX-Request
+		Uri: http://localhost/partials/centres/all
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\PartialsController'
+		Controller-Method: 'centres_all'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\PartialsController.php
+
+[INFO] 2024-03-18 21:24:18: serving '/centres/centre?centre=QlQ1U0JnMFYxR1dWbDNKTHhnWUVkUT09OjqHyENTHbLHgIIvZSZSMDm0'
+		HTMX-Request
+		Uri: http://localhost/centres/centre?centre=QlQ1U0JnMFYxR1dWbDNKTHhnWUVkUT09OjqHyENTHbLHgIIvZSZSMDm0
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'centre'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Get-Params-Count 1
+[DEBUG] 2024-03-18 21:24:18: redirect
+		Header: 'HX-Redirect:'
+		Url: 'http://localhost/centres/centre/dashboard'
+
+[INFO] 2024-03-18 21:24:18: serving '/centres/centre/dashboard'
+		Uri: http://localhost/centres/centre/dashboard
+		Request-Method: 'GET'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'dashboard'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+
+[INFO] 2024-03-18 21:24:23: serving '/centre/edit'
+		HTMX-Request
+		Uri: http://localhost/centre/edit
+		Request-Method: 'POST'
+		Controller: 'App\Controllers\CentreController'
+		Controller-Method: 'edit'
+		File: file:///C:\xampp\htdocs\school\exam-2015-suppl\app\controllers\CentreController.php
+		Post-Params-Count 6

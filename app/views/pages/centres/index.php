@@ -1,4 +1,6 @@
-<?php /** @var Lib\Systems\Views\View $this */
+<?php
+
+/** @var Lib\Systems\Views\View $this */
 ?>
 
 @set(title, 'Dashboard')
@@ -94,6 +96,55 @@
 
                         <div hx-get="{{base_url()}}partials/centres/all" hx-trigger="load, every 10s" hx-target="#table-body" hx-swap="innerHTML"></div>
                         <tbody class="divide-y divide-gray-200 dark:divide-gray-700" id="table-body">
+                            <tr>
+                                <td class="size-px whitespace-nowrap"></td>
+                                <td class="size-px whitespace-nowrap">
+                                    <div class="px-6 py-2">
+                                        <span class="text-sm text-transparent bg-gray-700 h-6 w-20 block rounded-md wavy"></span>
+                                    </div>
+                                </td>
+
+                                <td class="size-px whitespace-nowrap">
+                                    <div class="px-6 py-2">
+                                        <span class="text-sm text-transparent bg-gray-700 h-6 w-20 block rounded-md wavy"></span>
+                                    </div>
+                                </td>
+
+                                <td class="size-px whitespace-nowrap">
+                                    <div class="px-6 py-2">
+                                        <span class="text-sm text-transparent bg-gray-700 h-6 w-20 block rounded-md wavy"></span>
+                                    </div>
+                                </td>
+
+                                <td class="size-px whitespace-nowrap">
+                                    <div class="px-6 py-2">
+                                        <span class="text-sm text-transparent bg-gray-700 h-6 w-20 block rounded-md wavy"></span>
+                                    </div>
+                                </td>
+
+                                <td class="size-px whitespace-nowrap">
+                                    <div class="px-6 py-2">
+                                        <span class="text-sm text-transparent bg-gray-700 h-6 w-20 block rounded-md wavy"></span>
+                                    </div>
+                                </td>
+
+                                <td class="size-px whitespace-nowrap">
+                                    <div class="px-6 py-2">
+                                        <span class="text-sm text-transparent bg-gray-700 h-6 w-20 block rounded-md wavy"></span>
+                                    </div>
+                                </td>
+
+                                <td class="size-px whitespace-nowrap text-start">
+                                    <div class="px-6 py-2 flex">
+                                        <span class="text-sm text-transparent bg-gray-700 h-6 w-40 block rounded-md wavy"></span>
+                                    </div>
+                                </td>
+
+                                <td class="size-px whitespace-nowrap">
+                                    <div class="px-6 py-2">
+                                    </div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

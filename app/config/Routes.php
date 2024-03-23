@@ -25,5 +25,7 @@ $routes->post('/useredit', 'UserController::useredit');
 $routes->get('/dashboard', 'IndexController::dashboard');
 
 $routes->post('/centre/add', 'CentreController::add');
+$routes->post('/centre/edit', 'CentreController::edit');
 $routes->get('/centres', 'CentreController::index');
-$routes->get('/centres/centre/dashboard', 'CentreController::centre_dashboard');
+$routes->get('/centres/centre', 'CentreController::centre');
+$routes->get('/centres/centre/dashboard', 'CentreController::dashboard');

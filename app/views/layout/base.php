@@ -40,6 +40,7 @@ $this->role = session()->get('user-role');
     <script type="module" src="<?= assets_path() ?>js/auth/login.js"></script>
     <script type="module" src="<?= assets_path() ?>js/useredit/useredit.js"></script>
     <script type="module" src="<?= assets_path() ?>js/useredit/upgradetoadmin.js"></script>
+    <script type="module" src="<?= assets_path() ?>js/centres/centre/edit.js"></script>
 
     <?= $this->render_section('include') ?>
 </head>
